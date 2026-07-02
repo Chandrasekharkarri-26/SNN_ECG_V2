@@ -1,0 +1,7 @@
+Running: xsim.dir/tb_neuron_state_sram_behav/xsimk -simmode gui -wdb tb_neuron_state_sram_behav.wdb -simrunnum 0 -socket 60919
+Design successfully loaded
+Design Loading Memory Usage: 392936 KB (Peak: 392992 KB)
+Design Loading CPU Usage: 540 ms
+Simulation completed
+Simulation Memory Usage: 474932 KB (Peak: 532204 KB)
+Simulation CPU Usage: 3830 ms

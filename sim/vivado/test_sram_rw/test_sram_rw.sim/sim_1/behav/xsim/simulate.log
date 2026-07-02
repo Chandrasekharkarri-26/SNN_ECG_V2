@@ -1,0 +1,35 @@
+Time resolution is 1 ps
+=================================================
+ Starting Verification: sram_1rw
+=================================================
+[30000] [PASS]           Init Check (Address 0)
+[50000] [PASS] ck (Address 15 - Upper Boundary)
+[90000] [PASS]          Normal Read After Write
+[130000] [PASS]          Write ignored when CE=0
+[150000] [PASS]          Write ignored when CE=0
+[170000] [PASS] A holds previous value when CE=0
+[190000] [PASS] A holds previous value when CE=0
+[210000] [PASS] es not change during write cycle
+[230000] [PASS] rite from Read-During-Write test
+[230000] [INFO] Starting exhaustive memory sweep...
+[570000] [PASS]            Exhaustive Sweep Read
+[590000] [PASS]            Exhaustive Sweep Read
+[610000] [PASS]            Exhaustive Sweep Read
+[630000] [PASS]            Exhaustive Sweep Read
+[650000] [PASS]            Exhaustive Sweep Read
+[670000] [PASS]            Exhaustive Sweep Read
+[690000] [PASS]            Exhaustive Sweep Read
+[710000] [PASS]            Exhaustive Sweep Read
+[730000] [PASS]            Exhaustive Sweep Read
+[750000] [PASS]            Exhaustive Sweep Read
+[770000] [PASS]            Exhaustive Sweep Read
+[790000] [PASS]            Exhaustive Sweep Read
+[810000] [PASS]            Exhaustive Sweep Read
+[830000] [PASS]            Exhaustive Sweep Read
+[850000] [PASS]            Exhaustive Sweep Read
+[870000] [PASS]            Exhaustive Sweep Read
+=================================================
+ [SUCCESS] All 25 checks PASSED!
+=================================================
+$finish called at time : 870 ns : File "/home/23EC01021/Music/SNN_ECG_V2/tb/tb_sram_1rw.v" Line 237
+INFO: xsimkernel Simulation Memory Usage: 474928 KB (Peak: 532200 KB), Simulation CPU Usage: 3590 ms

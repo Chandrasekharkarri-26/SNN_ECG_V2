@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/rtl/memory/weight_decode.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module weight_decode
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/tb/tb_weight_decode.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_weight_decode

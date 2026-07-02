@@ -1,0 +1,76 @@
+Time resolution is 1 ps
+=================================================
+ Starting Verification: weight_decode
+=================================================
+[20000] [PASS] ady == 1 immediately after reset
+[70000] [FAIL] return to IDLE without out_valid | out_valid asserted unexpectedly while waiting for ready!
+[90000] [FAIL] return to IDLE without out_valid | out_valid asserted unexpectedly while waiting for ready!
+[110000] [FAIL] return to IDLE without out_valid | out_valid asserted unexpectedly while waiting for ready!
+[130000] [FAIL] return to IDLE without out_valid | out_valid asserted unexpectedly while waiting for ready!
+[150000] [FAIL] return to IDLE without out_valid | out_valid asserted unexpectedly while waiting for ready!
+[170000] [FAIL] return to IDLE without out_valid | out_valid asserted unexpectedly while waiting for ready!
+[190000] [FAIL] return to IDLE without out_valid | out_valid asserted unexpectedly while waiting for ready!
+[210000] [FAIL] return to IDLE without out_valid | out_valid asserted unexpectedly while waiting for ready!
+[230000] [FAIL] return to IDLE without out_valid | out_valid asserted unexpectedly while waiting for ready!
+[250000] [FAIL] return to IDLE without out_valid | out_valid asserted unexpectedly while waiting for ready!
+[270000] [FAIL] return to IDLE without out_valid | out_valid asserted unexpectedly while waiting for ready!
+[290000] [FAIL] return to IDLE without out_valid | out_valid asserted unexpectedly while waiting for ready!
+[310000] [FAIL] return to IDLE without out_valid | out_valid asserted unexpectedly while waiting for ready!
+[330000] [FAIL] return to IDLE without out_valid | out_valid asserted unexpectedly while waiting for ready!
+[350000] [FAIL] return to IDLE without out_valid | out_valid asserted unexpectedly while waiting for ready!
+[370000] [FAIL] return to IDLE without out_valid | out_valid asserted unexpectedly while waiting for ready!
+[390000] [FAIL] return to IDLE without out_valid | out_valid asserted unexpectedly while waiting for ready!
+[410000] [FAIL] return to IDLE without out_valid | out_valid asserted unexpectedly while waiting for ready!
+[430000] [FAIL] return to IDLE without out_valid | out_valid asserted unexpectedly while waiting for ready!
+[450000] [FAIL] return to IDLE without out_valid | out_valid asserted unexpectedly while waiting for ready!
+[470000] [FAIL] return to IDLE without out_valid | out_valid asserted unexpectedly while waiting for ready!
+[490000] [FAIL] return to IDLE without out_valid | out_valid asserted unexpectedly while waiting for ready!
+[510000] [FAIL] return to IDLE without out_valid | out_valid asserted unexpectedly while waiting for ready!
+[530000] [FAIL] return to IDLE without out_valid | TIMEOUT: FSM did not return to ready within 50 cycles.
+[550000] [PASS] ify ready == 0 while FSM is busy
+[550000] [FAIL] (1 connection) - Data Validation | Exp: W=11 ID=111 L=1 | Got: W=4 ID=186 L=0
+[560000] [PASS] valid is a one-clock-cycle pulse
+[570000] [FAIL] o IDLE after 1-connection stream | out_valid asserted unexpectedly while waiting for ready!
+[590000] [FAIL] o IDLE after 1-connection stream | out_valid asserted unexpectedly while waiting for ready!
+[610000] [FAIL] o IDLE after 1-connection stream | out_valid asserted unexpectedly while waiting for ready!
+[630000] [FAIL] o IDLE after 1-connection stream | out_valid asserted unexpectedly while waiting for ready!
+[650000] [FAIL] o IDLE after 1-connection stream | out_valid asserted unexpectedly while waiting for ready!
+[670000] [FAIL] o IDLE after 1-connection stream | out_valid asserted unexpectedly while waiting for ready!
+[690000] [FAIL] o IDLE after 1-connection stream | out_valid asserted unexpectedly while waiting for ready!
+[710000] [FAIL] o IDLE after 1-connection stream | out_valid asserted unexpectedly while waiting for ready!
+[730000] [FAIL] o IDLE after 1-connection stream | out_valid asserted unexpectedly while waiting for ready!
+[750000] [FAIL] o IDLE after 1-connection stream | out_valid asserted unexpectedly while waiting for ready!
+[770000] [FAIL] o IDLE after 1-connection stream | out_valid asserted unexpectedly while waiting for ready!
+[790000] [FAIL] o IDLE after 1-connection stream | out_valid asserted unexpectedly while waiting for ready!
+[810000] [FAIL] o IDLE after 1-connection stream | out_valid asserted unexpectedly while waiting for ready!
+[830000] [FAIL] o IDLE after 1-connection stream | out_valid asserted unexpectedly while waiting for ready!
+[850000] [FAIL] o IDLE after 1-connection stream | out_valid asserted unexpectedly while waiting for ready!
+[870000] [FAIL] o IDLE after 1-connection stream | out_valid asserted unexpectedly while waiting for ready!
+[890000] [FAIL] o IDLE after 1-connection stream | out_valid asserted unexpectedly while waiting for ready!
+[910000] [FAIL] o IDLE after 1-connection stream | out_valid asserted unexpectedly while waiting for ready!
+[930000] [FAIL] o IDLE after 1-connection stream | out_valid asserted unexpectedly while waiting for ready!
+[950000] [FAIL] o IDLE after 1-connection stream | out_valid asserted unexpectedly while waiting for ready!
+[970000] [FAIL] o IDLE after 1-connection stream | out_valid asserted unexpectedly while waiting for ready!
+[990000] [FAIL] o IDLE after 1-connection stream | out_valid asserted unexpectedly while waiting for ready!
+[1010000] [FAIL] o IDLE after 1-connection stream | out_valid asserted unexpectedly while waiting for ready!
+[1030000] [FAIL] o IDLE after 1-connection stream | out_valid asserted unexpectedly while waiting for ready!
+[1050000] [FAIL] o IDLE after 1-connection stream | out_valid asserted unexpectedly while waiting for ready!
+[1060000] [FAIL] o IDLE after 1-connection stream | TIMEOUT: FSM did not return to ready within 50 cycles.
+[1110000] [FAIL] connections) - Checking output 1 | Exp: W=21 ID=201 L=0 | Got: W=59 ID=294 L=0
+[1130000] [FAIL] connections) - Checking output 2 | Exp: W=22 ID=202 L=0 | Got: W=5 ID=295 L=0
+[1150000] [FAIL] ions) - Checking output 3 (Last) | Exp: W=23 ID=203 L=1 | Got: W=6 ID=296 L=0
+[1170000] [FAIL] y was ignored (no ghost streams) | Unexpected out_valid detected!
+[1190000] [FAIL] y was ignored (no ghost streams) | Unexpected out_valid detected!
+[1210000] [FAIL] y was ignored (no ghost streams) | Unexpected out_valid detected!
+[1230000] [FAIL] y was ignored (no ghost streams) | Unexpected out_valid detected!
+[1250000] [FAIL] y was ignored (no ghost streams) | Unexpected out_valid detected!
+[1270000] [FAIL] y was ignored (no ghost streams) | Unexpected out_valid detected!
+[1290000] [FAIL] y was ignored (no ghost streams) | Unexpected out_valid detected!
+[1310000] [FAIL] y was ignored (no ghost streams) | Unexpected out_valid detected!
+[1330000] [FAIL] y was ignored (no ghost streams) | Unexpected out_valid detected!
+[1360000] [PASS] LE after multi-connection stream
+=================================================
+ [FAILED] 63 out of 67 checks FAILED.
+=================================================
+$finish called at time : 1380 ns : File "/home/23EC01021/Music/SNN_ECG_V2/tb/tb_weight_decode.v" Line 291
+INFO: xsimkernel Simulation Memory Usage: 475152 KB (Peak: 532424 KB), Simulation CPU Usage: 560 ms

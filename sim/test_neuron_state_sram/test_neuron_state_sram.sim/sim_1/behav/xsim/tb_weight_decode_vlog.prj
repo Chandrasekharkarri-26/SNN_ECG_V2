@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../../rtl/memory/sram_1rw.v" \
+"../../../../../../rtl/memory/weight_decode.v" \
+"../../../../../../tb/tb_weight_decode.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

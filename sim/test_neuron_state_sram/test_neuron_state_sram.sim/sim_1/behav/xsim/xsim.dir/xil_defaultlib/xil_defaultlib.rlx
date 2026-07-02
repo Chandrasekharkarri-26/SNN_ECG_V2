@@ -1,0 +1,10 @@
+0.7
+2020.2
+Nov  8 2024
+22:36:55
+/home/23EC01021/Music/SNN_ECG_V2/rtl/memory/neuron_state_sram.v,1782931737,verilog,,/home/23EC01021/Music/SNN_ECG_V2/rtl/memory/sram_1rw.v,,neuron_state_sram,,,,,,,,
+/home/23EC01021/Music/SNN_ECG_V2/rtl/memory/sram_1rw.v,1782930166,verilog,,/home/23EC01021/Music/SNN_ECG_V2/rtl/memory/weight_decode.v,,sram_1rw,,,,,,,,
+/home/23EC01021/Music/SNN_ECG_V2/rtl/memory/weight_decode.v,1782929985,verilog,,/home/23EC01021/Music/SNN_ECG_V2/tb/tb_weight_decode.v,,weight_decode,,,,,,,,
+/home/23EC01021/Music/SNN_ECG_V2/sim/test_neuron_state_sram/test_neuron_state_sram.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,,,,,,,
+/home/23EC01021/Music/SNN_ECG_V2/tb/tb_neuron_state_sram.v,1782980886,verilog,,,,tb_neuron_state_sram,,,,,,,,
+/home/23EC01021/Music/SNN_ECG_V2/tb/tb_weight_decode.v,1782981666,verilog,,,,tb_weight_decode,,,,,,,,

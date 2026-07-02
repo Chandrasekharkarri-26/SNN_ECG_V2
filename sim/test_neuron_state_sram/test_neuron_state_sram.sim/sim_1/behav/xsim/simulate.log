@@ -1,0 +1,14 @@
+Time resolution is 1 ps
+WARNING: File Weight_Entrance.mem referenced from process on /home/23EC01021/Music/SNN_ECG_V2/rtl/memory/sram_1rw.v at line 45 cannot be opened for reading. Please ensure that this file is available in the current working directory or parent directory of xsim.dir location specified via -xsimdir switch.
+WARNING: File Weight_Connection.mem referenced from process on /home/23EC01021/Music/SNN_ECG_V2/rtl/memory/sram_1rw.v at line 45 cannot be opened for reading. Please ensure that this file is available in the current working directory or parent directory of xsim.dir location specified via -xsimdir switch.
+=================================================
+ Starting Verification: weight_decode
+=================================================
+[20000] [PASS] ady == 1 immediately after reset
+[50000] [PASS] return to IDLE without out_valid
+[70000] [PASS] ify ready == 0 while FSM is busy
+[570000] [FAIL] (1 connection) - Data Validation | TIMEOUT: out_valid did not assert within 50 cycles.
+[570000] [FAIL] (1 connection) - Data Validation | Exp: W=11 ID=111 L=1 | Got: W=0 ID=0 L=0
+[580000] [PASS] valid is a one-clock-cycle pulse
+[580000] [PASS] o IDLE after 1-connection stream
+INFO: xsimkernel Simulation Memory Usage: 475864 KB (Peak: 532424 KB), Simulation CPU Usage: 550 ms

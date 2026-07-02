@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Thu Jul  2 14:38:44 2026
+# Process ID         : 302277
+# Current directory  : /home/23EC01021/Music/SNN_ECG_V2/sim
+# Command line       : vivado
+# Log file           : /home/23EC01021/Music/SNN_ECG_V2/sim/vivado.log
+# Journal file       : /home/23EC01021/Music/SNN_ECG_V2/sim/vivado.jou
+# Running On         : vlsilab.iitbbs.ac.in
+# Platform           : unknown
+# Operating System   : unknown
+# Processor Detail   : Intel(R) Core(TM) i7-14700
+# CPU Frequency      : 799.683 MHz
+# CPU Physical cores : 20
+# CPU Logical cores  : 28
+# Host memory        : 33107 MB
+# Swap memory        : 42949 MB
+# Total Virtual      : 76057 MB
+# Available Virtual  : 63991 MB
+#-----------------------------------------------------------
+start_gui
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available

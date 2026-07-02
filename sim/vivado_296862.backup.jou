@@ -1,0 +1,43 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Thu Jul  2 14:14:44 2026
+# Process ID         : 296862
+# Current directory  : /home/23EC01021/Music/SNN_ECG_V2/sim
+# Command line       : vivado
+# Log file           : /home/23EC01021/Music/SNN_ECG_V2/sim/vivado.log
+# Journal file       : /home/23EC01021/Music/SNN_ECG_V2/sim/vivado.jou
+# Running On         : vlsilab.iitbbs.ac.in
+# Platform           : unknown
+# Operating System   : unknown
+# Processor Detail   : Intel(R) Core(TM) i7-14700
+# CPU Frequency      : 2765.204 MHz
+# CPU Physical cores : 20
+# CPU Logical cores  : 28
+# Host memory        : 33107 MB
+# Swap memory        : 42949 MB
+# Total Virtual      : 76057 MB
+# Available Virtual  : 64377 MB
+#-----------------------------------------------------------
+start_gui
+create_project test_weight_decode /home/23EC01021/Music/SNN_ECG_V2/sim/test_weight_decode -part xc7vx485tffg1157-1
+add_files -norecurse {/home/23EC01021/Music/SNN_ECG_V2/rtl/memory/weight_decode.v /home/23EC01021/Music/SNN_ECG_V2/tb/tb_weight_decode.v}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+move_files -fileset sim_1 [get_files  /home/23EC01021/Music/SNN_ECG_V2/tb/tb_weight_decode.v]
+launch_simulation
+add_files -norecurse /home/23EC01021/Music/SNN_ECG_V2/rtl/memory/sram_1rw.v
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_weight_decode.tcl
+run 20ms
+relaunch_sim
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse {/home/23EC01021/Music/SNN_ECG_V2/sim/Weight_Connection.mem /home/23EC01021/Music/SNN_ECG_V2/sim/Weight_Entrance.mem}
+close_sim
+launch_simulation
+source tb_weight_decode.tcl
+run 10ms
+close_sim

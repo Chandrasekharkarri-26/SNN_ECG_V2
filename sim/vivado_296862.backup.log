@@ -1,0 +1,366 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Thu Jul  2 14:14:44 2026
+# Process ID         : 296862
+# Current directory  : /home/23EC01021/Music/SNN_ECG_V2/sim
+# Command line       : vivado
+# Log file           : /home/23EC01021/Music/SNN_ECG_V2/sim/vivado.log
+# Journal file       : /home/23EC01021/Music/SNN_ECG_V2/sim/vivado.jou
+# Running On         : vlsilab.iitbbs.ac.in
+# Platform           : unknown
+# Operating System   : unknown
+# Processor Detail   : Intel(R) Core(TM) i7-14700
+# CPU Frequency      : 2765.204 MHz
+# CPU Physical cores : 20
+# CPU Logical cores  : 28
+# Host memory        : 33107 MB
+# Swap memory        : 42949 MB
+# Total Virtual      : 76057 MB
+# Available Virtual  : 64377 MB
+#-----------------------------------------------------------
+start_gui
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+create_project test_weight_decode /home/23EC01021/Music/SNN_ECG_V2/sim/test_weight_decode -part xc7vx485tffg1157-1
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/Data/cad/Xilinx/Vivado/2024.2/data/ip'.
+add_files -norecurse {/home/23EC01021/Music/SNN_ECG_V2/rtl/memory/weight_decode.v /home/23EC01021/Music/SNN_ECG_V2/tb/tb_weight_decode.v}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+move_files -fileset sim_1 [get_files  /home/23EC01021/Music/SNN_ECG_V2/tb/tb_weight_decode.v]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_weight_decode'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/23EC01021/Music/SNN_ECG_V2/sim/test_weight_decode/test_weight_decode.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/Data/cad/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_weight_decode' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/23EC01021/Music/SNN_ECG_V2/sim/test_weight_decode/test_weight_decode.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj tb_weight_decode_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/rtl/memory/weight_decode.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module weight_decode
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/tb/tb_weight_decode.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_weight_decode
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/sim/test_weight_decode/test_weight_decode.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/23EC01021/Music/SNN_ECG_V2/sim/test_weight_decode/test_weight_decode.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_weight_decode_behav xil_defaultlib.tb_weight_decode xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /Data/cad/Xilinx/Vivado/2024.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_weight_decode_behav xil_defaultlib.tb_weight_decode xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-2063] Module <sram_1rw> not found while processing module instance <u_went> [/home/23EC01021/Music/SNN_ECG_V2/rtl/memory/weight_decode.v:46]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'/home/23EC01021/Music/SNN_ECG_V2/sim/test_weight_decode/test_weight_decode.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or '/home/23EC01021/Music/SNN_ECG_V2/sim/test_weight_decode/test_weight_decode.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+add_files -norecurse /home/23EC01021/Music/SNN_ECG_V2/rtl/memory/sram_1rw.v
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_weight_decode'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/23EC01021/Music/SNN_ECG_V2/sim/test_weight_decode/test_weight_decode.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/Data/cad/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_weight_decode' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/23EC01021/Music/SNN_ECG_V2/sim/test_weight_decode/test_weight_decode.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj tb_weight_decode_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/rtl/memory/sram_1rw.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sram_1rw
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/23EC01021/Music/SNN_ECG_V2/sim/test_weight_decode/test_weight_decode.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_weight_decode_behav xil_defaultlib.tb_weight_decode xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /Data/cad/Xilinx/Vivado/2024.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_weight_decode_behav xil_defaultlib.tb_weight_decode xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.sram_1rw(DATA_WIDTH=25,INIT_FILE...
+Compiling module xil_defaultlib.sram_1rw(ADDR_WIDTH=15,INIT_FILE...
+Compiling module xil_defaultlib.weight_decode_default
+Compiling module xil_defaultlib.tb_weight_decode
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_weight_decode_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/23EC01021/Music/SNN_ECG_V2/sim/test_weight_decode/test_weight_decode.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_weight_decode_behav -key {Behavioral:sim_1:Functional:tb_weight_decode} -tclbatch {tb_weight_decode.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_weight_decode.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+WARNING: File Weight_Entrance.mem referenced from process on /home/23EC01021/Music/SNN_ECG_V2/rtl/memory/sram_1rw.v at line 45 cannot be opened for reading. Please ensure that this file is available in the current working directory or parent directory of xsim.dir location specified via -xsimdir switch.
+WARNING: File Weight_Connection.mem referenced from process on /home/23EC01021/Music/SNN_ECG_V2/rtl/memory/sram_1rw.v at line 45 cannot be opened for reading. Please ensure that this file is available in the current working directory or parent directory of xsim.dir location specified via -xsimdir switch.
+=================================================
+ Starting Verification: weight_decode
+=================================================
+[20000] [PASS] ady == 1 immediately after reset
+[50000] [PASS] return to IDLE without out_valid
+[70000] [PASS] ify ready == 0 while FSM is busy
+[570000] [FAIL] (1 connection) - Data Validation | TIMEOUT: out_valid did not assert within 50 cycles.
+[570000] [FAIL] (1 connection) - Data Validation | Exp: W=11 ID=111 L=1 | Got: W=0 ID=0 L=0
+[580000] [PASS] valid is a one-clock-cycle pulse
+[580000] [PASS] o IDLE after 1-connection stream
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_weight_decode_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+run 20ms
+[1120000] [FAIL] connections) - Checking output 1 | TIMEOUT: out_valid did not assert within 50 cycles.
+[1120000] [FAIL] connections) - Checking output 1 | Exp: W=21 ID=201 L=0 | Got: W=0 ID=0 L=0
+[1630000] [FAIL] connections) - Checking output 2 | TIMEOUT: out_valid did not assert within 50 cycles.
+[1630000] [FAIL] connections) - Checking output 2 | Exp: W=22 ID=202 L=0 | Got: W=0 ID=0 L=0
+[2140000] [FAIL] ions) - Checking output 3 (Last) | TIMEOUT: out_valid did not assert within 50 cycles.
+[2140000] [FAIL] ions) - Checking output 3 (Last) | Exp: W=23 ID=203 L=1 | Got: W=0 ID=0 L=0
+[2350000] [PASS] y was ignored (no ghost streams)
+[2350000] [PASS] LE after multi-connection stream
+=================================================
+ [FAILED] 8 out of 15 checks FAILED.
+=================================================
+$finish called at time : 2370 ns : File "/home/23EC01021/Music/SNN_ECG_V2/tb/tb_weight_decode.v" Line 291
+relaunch_sim
+INFO: xsimkernel Simulation Memory Usage: 475864 KB (Peak: 532424 KB), Simulation CPU Usage: 550 ms
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_weight_decode'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/23EC01021/Music/SNN_ECG_V2/sim/test_weight_decode/test_weight_decode.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/Data/cad/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_weight_decode' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/23EC01021/Music/SNN_ECG_V2/sim/test_weight_decode/test_weight_decode.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj tb_weight_decode_vlog.prj
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_weight_decode'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/23EC01021/Music/SNN_ECG_V2/sim/test_weight_decode/test_weight_decode.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/23EC01021/Music/SNN_ECG_V2/sim/test_weight_decode/test_weight_decode.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_weight_decode_behav xil_defaultlib.tb_weight_decode xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /Data/cad/Xilinx/Vivado/2024.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_weight_decode_behav xil_defaultlib.tb_weight_decode xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Time resolution is 1 ps
+WARNING: File Weight_Entrance.mem referenced from process on /home/23EC01021/Music/SNN_ECG_V2/rtl/memory/sram_1rw.v at line 45 cannot be opened for reading. Please ensure that this file is available in the current working directory or parent directory of xsim.dir location specified via -xsimdir switch.
+WARNING: File Weight_Connection.mem referenced from process on /home/23EC01021/Music/SNN_ECG_V2/rtl/memory/sram_1rw.v at line 45 cannot be opened for reading. Please ensure that this file is available in the current working directory or parent directory of xsim.dir location specified via -xsimdir switch.
+=================================================
+ Starting Verification: weight_decode
+=================================================
+[20000] [PASS] ady == 1 immediately after reset
+[50000] [PASS] return to IDLE without out_valid
+[70000] [PASS] ify ready == 0 while FSM is busy
+[570000] [FAIL] (1 connection) - Data Validation | TIMEOUT: out_valid did not assert within 50 cycles.
+[570000] [FAIL] (1 connection) - Data Validation | Exp: W=11 ID=111 L=1 | Got: W=0 ID=0 L=0
+[580000] [PASS] valid is a one-clock-cycle pulse
+[580000] [PASS] o IDLE after 1-connection stream
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse {/home/23EC01021/Music/SNN_ECG_V2/sim/Weight_Connection.mem /home/23EC01021/Music/SNN_ECG_V2/sim/Weight_Entrance.mem}
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/memory/weight_decode.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_weight_decode.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_weight_decode.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_weight_decode.v:]
+close_sim
+INFO: xsimkernel Simulation Memory Usage: 475152 KB (Peak: 532424 KB), Simulation CPU Usage: 540 ms
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_weight_decode'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/23EC01021/Music/SNN_ECG_V2/sim/test_weight_decode/test_weight_decode.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/Data/cad/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_weight_decode' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported '/home/23EC01021/Music/SNN_ECG_V2/sim/test_weight_decode/test_weight_decode.sim/sim_1/behav/xsim/Weight_Connection.mem'
+INFO: [SIM-utils-43] Exported '/home/23EC01021/Music/SNN_ECG_V2/sim/test_weight_decode/test_weight_decode.sim/sim_1/behav/xsim/Weight_Entrance.mem'
+INFO: [SIM-utils-43] Exported '/home/23EC01021/Music/SNN_ECG_V2/sim/test_weight_decode/test_weight_decode.sim/sim_1/behav/xsim/Weight_Connection.mem'
+INFO: [SIM-utils-43] Exported '/home/23EC01021/Music/SNN_ECG_V2/sim/test_weight_decode/test_weight_decode.sim/sim_1/behav/xsim/Weight_Entrance.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/23EC01021/Music/SNN_ECG_V2/sim/test_weight_decode/test_weight_decode.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj tb_weight_decode_vlog.prj
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/23EC01021/Music/SNN_ECG_V2/sim/test_weight_decode/test_weight_decode.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_weight_decode_behav xil_defaultlib.tb_weight_decode xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /Data/cad/Xilinx/Vivado/2024.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_weight_decode_behav xil_defaultlib.tb_weight_decode xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/23EC01021/Music/SNN_ECG_V2/sim/test_weight_decode/test_weight_decode.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_weight_decode_behav -key {Behavioral:sim_1:Functional:tb_weight_decode} -tclbatch {tb_weight_decode.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_weight_decode.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+=================================================
+ Starting Verification: weight_decode
+=================================================
+[20000] [PASS] ady == 1 immediately after reset
+[70000] [FAIL] return to IDLE without out_valid | out_valid asserted unexpectedly while waiting for ready!
+[90000] [FAIL] return to IDLE without out_valid | out_valid asserted unexpectedly while waiting for ready!
+[110000] [FAIL] return to IDLE without out_valid | out_valid asserted unexpectedly while waiting for ready!
+[130000] [FAIL] return to IDLE without out_valid | out_valid asserted unexpectedly while waiting for ready!
+[150000] [FAIL] return to IDLE without out_valid | out_valid asserted unexpectedly while waiting for ready!
+[170000] [FAIL] return to IDLE without out_valid | out_valid asserted unexpectedly while waiting for ready!
+[190000] [FAIL] return to IDLE without out_valid | out_valid asserted unexpectedly while waiting for ready!
+[210000] [FAIL] return to IDLE without out_valid | out_valid asserted unexpectedly while waiting for ready!
+[230000] [FAIL] return to IDLE without out_valid | out_valid asserted unexpectedly while waiting for ready!
+[250000] [FAIL] return to IDLE without out_valid | out_valid asserted unexpectedly while waiting for ready!
+[270000] [FAIL] return to IDLE without out_valid | out_valid asserted unexpectedly while waiting for ready!
+[290000] [FAIL] return to IDLE without out_valid | out_valid asserted unexpectedly while waiting for ready!
+[310000] [FAIL] return to IDLE without out_valid | out_valid asserted unexpectedly while waiting for ready!
+[330000] [FAIL] return to IDLE without out_valid | out_valid asserted unexpectedly while waiting for ready!
+[350000] [FAIL] return to IDLE without out_valid | out_valid asserted unexpectedly while waiting for ready!
+[370000] [FAIL] return to IDLE without out_valid | out_valid asserted unexpectedly while waiting for ready!
+[390000] [FAIL] return to IDLE without out_valid | out_valid asserted unexpectedly while waiting for ready!
+[410000] [FAIL] return to IDLE without out_valid | out_valid asserted unexpectedly while waiting for ready!
+[430000] [FAIL] return to IDLE without out_valid | out_valid asserted unexpectedly while waiting for ready!
+[450000] [FAIL] return to IDLE without out_valid | out_valid asserted unexpectedly while waiting for ready!
+[470000] [FAIL] return to IDLE without out_valid | out_valid asserted unexpectedly while waiting for ready!
+[490000] [FAIL] return to IDLE without out_valid | out_valid asserted unexpectedly while waiting for ready!
+[510000] [FAIL] return to IDLE without out_valid | out_valid asserted unexpectedly while waiting for ready!
+[530000] [FAIL] return to IDLE without out_valid | TIMEOUT: FSM did not return to ready within 50 cycles.
+[550000] [PASS] ify ready == 0 while FSM is busy
+[550000] [FAIL] (1 connection) - Data Validation | Exp: W=11 ID=111 L=1 | Got: W=4 ID=186 L=0
+[560000] [PASS] valid is a one-clock-cycle pulse
+[570000] [FAIL] o IDLE after 1-connection stream | out_valid asserted unexpectedly while waiting for ready!
+[590000] [FAIL] o IDLE after 1-connection stream | out_valid asserted unexpectedly while waiting for ready!
+[610000] [FAIL] o IDLE after 1-connection stream | out_valid asserted unexpectedly while waiting for ready!
+[630000] [FAIL] o IDLE after 1-connection stream | out_valid asserted unexpectedly while waiting for ready!
+[650000] [FAIL] o IDLE after 1-connection stream | out_valid asserted unexpectedly while waiting for ready!
+[670000] [FAIL] o IDLE after 1-connection stream | out_valid asserted unexpectedly while waiting for ready!
+[690000] [FAIL] o IDLE after 1-connection stream | out_valid asserted unexpectedly while waiting for ready!
+[710000] [FAIL] o IDLE after 1-connection stream | out_valid asserted unexpectedly while waiting for ready!
+[730000] [FAIL] o IDLE after 1-connection stream | out_valid asserted unexpectedly while waiting for ready!
+[750000] [FAIL] o IDLE after 1-connection stream | out_valid asserted unexpectedly while waiting for ready!
+[770000] [FAIL] o IDLE after 1-connection stream | out_valid asserted unexpectedly while waiting for ready!
+[790000] [FAIL] o IDLE after 1-connection stream | out_valid asserted unexpectedly while waiting for ready!
+[810000] [FAIL] o IDLE after 1-connection stream | out_valid asserted unexpectedly while waiting for ready!
+[830000] [FAIL] o IDLE after 1-connection stream | out_valid asserted unexpectedly while waiting for ready!
+[850000] [FAIL] o IDLE after 1-connection stream | out_valid asserted unexpectedly while waiting for ready!
+[870000] [FAIL] o IDLE after 1-connection stream | out_valid asserted unexpectedly while waiting for ready!
+[890000] [FAIL] o IDLE after 1-connection stream | out_valid asserted unexpectedly while waiting for ready!
+[910000] [FAIL] o IDLE after 1-connection stream | out_valid asserted unexpectedly while waiting for ready!
+[930000] [FAIL] o IDLE after 1-connection stream | out_valid asserted unexpectedly while waiting for ready!
+[950000] [FAIL] o IDLE after 1-connection stream | out_valid asserted unexpectedly while waiting for ready!
+[970000] [FAIL] o IDLE after 1-connection stream | out_valid asserted unexpectedly while waiting for ready!
+[990000] [FAIL] o IDLE after 1-connection stream | out_valid asserted unexpectedly while waiting for ready!
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_weight_decode_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+run 10ms
+[1010000] [FAIL] o IDLE after 1-connection stream | out_valid asserted unexpectedly while waiting for ready!
+[1030000] [FAIL] o IDLE after 1-connection stream | out_valid asserted unexpectedly while waiting for ready!
+[1050000] [FAIL] o IDLE after 1-connection stream | out_valid asserted unexpectedly while waiting for ready!
+[1060000] [FAIL] o IDLE after 1-connection stream | TIMEOUT: FSM did not return to ready within 50 cycles.
+[1110000] [FAIL] connections) - Checking output 1 | Exp: W=21 ID=201 L=0 | Got: W=59 ID=294 L=0
+[1130000] [FAIL] connections) - Checking output 2 | Exp: W=22 ID=202 L=0 | Got: W=5 ID=295 L=0
+[1150000] [FAIL] ions) - Checking output 3 (Last) | Exp: W=23 ID=203 L=1 | Got: W=6 ID=296 L=0
+[1170000] [FAIL] y was ignored (no ghost streams) | Unexpected out_valid detected!
+[1190000] [FAIL] y was ignored (no ghost streams) | Unexpected out_valid detected!
+[1210000] [FAIL] y was ignored (no ghost streams) | Unexpected out_valid detected!
+[1230000] [FAIL] y was ignored (no ghost streams) | Unexpected out_valid detected!
+[1250000] [FAIL] y was ignored (no ghost streams) | Unexpected out_valid detected!
+[1270000] [FAIL] y was ignored (no ghost streams) | Unexpected out_valid detected!
+[1290000] [FAIL] y was ignored (no ghost streams) | Unexpected out_valid detected!
+[1310000] [FAIL] y was ignored (no ghost streams) | Unexpected out_valid detected!
+[1330000] [FAIL] y was ignored (no ghost streams) | Unexpected out_valid detected!
+[1360000] [PASS] LE after multi-connection stream
+=================================================
+ [FAILED] 63 out of 67 checks FAILED.
+=================================================
+$finish called at time : 1380 ns : File "/home/23EC01021/Music/SNN_ECG_V2/tb/tb_weight_decode.v" Line 291
+close_sim
+INFO: xsimkernel Simulation Memory Usage: 475152 KB (Peak: 532424 KB), Simulation CPU Usage: 560 ms
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Jul  2 14:38:32 2026...
