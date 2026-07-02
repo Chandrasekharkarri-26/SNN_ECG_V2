@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/rtl/io/output_reader.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module output_reader
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/tb/tb_output_reader.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_output_reader
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/sim/test_output_reader/test_output_reader.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

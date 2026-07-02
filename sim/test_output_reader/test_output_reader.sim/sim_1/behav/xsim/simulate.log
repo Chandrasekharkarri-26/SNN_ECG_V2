@@ -1,0 +1,5 @@
+Time resolution is 1 ps
+[135000] [PASS]             Normal Read Sequence
+Summary: Passed 3, Failed 0
+$finish called at time : 295 ns : File "/home/23EC01021/Music/SNN_ECG_V2/tb/tb_output_reader.v" Line 98
+INFO: xsimkernel Simulation Memory Usage: 474928 KB (Peak: 532200 KB), Simulation CPU Usage: 2010 ms

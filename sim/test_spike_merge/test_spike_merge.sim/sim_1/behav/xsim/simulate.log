@@ -1,0 +1,27 @@
+Time resolution is 1 ps
+========================================
+Starting Self-Checking Verification...
+========================================
+[PASS] Test 1: State match.
+[PASS] Test 2: State match.
+[PASS] Test 2: State match.
+[PASS] Test 3: State match.
+[PASS] Test 3: State match.
+[PASS] Test 4: State match.
+[PASS] Test 4: State match.
+[PASS] Test 4: State match.
+[PASS] Test 5: State match.
+[PASS] Test 6: State match.
+[PASS] Test 6: State match.
+[PASS] Test 6: State match.
+[PASS] Test 6: State match.
+[PASS] Test 6: State match.
+[PASS] Test 7: State match.
+[PASS] Test 8: State match.
+[PASS] Test 9: State match.
+========================================
+PASSED : 17
+FAILED : 0
+========================================
+$finish called at time : 350 ns : File "/home/23EC01021/Music/SNN_ECG_V2/tb/tb_spike_merge.v" Line 312
+INFO: xsimkernel Simulation Memory Usage: 474944 KB (Peak: 532216 KB), Simulation CPU Usage: 2130 ms

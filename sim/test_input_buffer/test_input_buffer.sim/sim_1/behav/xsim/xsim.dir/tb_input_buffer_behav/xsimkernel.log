@@ -2,3 +2,6 @@ Running: xsim.dir/tb_input_buffer_behav/xsimk -simmode gui -wdb tb_input_buffer_
 Design successfully loaded
 Design Loading Memory Usage: 392936 KB (Peak: 392992 KB)
 Design Loading CPU Usage: 540 ms
+Simulation completed
+Simulation Memory Usage: 474932 KB (Peak: 532204 KB)
+Simulation CPU Usage: 2080 ms

@@ -1,0 +1,21 @@
+Time resolution is 1 ps
+[1085000] [FAIL]        Start Bit | Exp: 0, Got: 1
+[1185000] [FAIL]               D0 | Exp: 0, Got: 1
+[1385000] [FAIL]               D2 | Exp: 0, Got: 1
+[1585000] [FAIL]               D4 | Exp: 0, Got: 1
+[1785000] [FAIL]               D6 | Exp: 0, Got: 1
+[FAIL]         Ignored send during busy: Second start bit detected
+[FAIL]         Ignored send during busy: Second start bit detected
+[FAIL]         Ignored send during busy: Second start bit detected
+[FAIL]         Ignored send during busy: Second start bit detected
+[FAIL]         Ignored send during busy: Second start bit detected
+[FAIL]         Ignored send during busy: Second start bit detected
+[FAIL]         Ignored send during busy: Second start bit detected
+[FAIL]         Ignored send during busy: Second start bit detected
+[FAIL]         Ignored send during busy: Second start bit detected
+[FAIL]         Ignored send during busy: Second start bit detected
+========================================
+Passed: 9 | Failed: 15
+========================================
+$finish called at time : 4470 ns : File "/home/23EC01021/Music/SNN_ECG_V2/tb/tb_uart_tx.v" Line 140
+INFO: xsimkernel Simulation Memory Usage: 474924 KB (Peak: 532196 KB), Simulation CPU Usage: 550 ms

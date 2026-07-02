@@ -1,0 +1,16 @@
+Time resolution is 1 ps
+=================================================
+ Starting Verification: uart_rx
+=================================================
+[960000] [FAIL]          Normal Reception: 8'hA5 | Exp: a5, Got: 4a
+[2310000] [FAIL]          Normal Reception: 8'h3C | TIMEOUT: data_valid did not assert.
+[2880000] [FAIL] nvalid Stop Bit (Data discarded) | data_valid asserted unexpectedly during a framing error!
+[4150000] [FAIL]     Back-to-Back: Byte 1 (8'h55) | Exp: 55, Got: 56
+[5050000] [FAIL]     Back-to-Back: Byte 2 (8'hAA) | Exp: aa, Got: 4a
+[5950000] [FAIL] ne held high for extended period | Spurious data_valid pulse detected!
+[7550000] [PASS] ne held high for extended period
+=================================================
+ [FAILED] 6 out of 7 checks FAILED.
+=================================================
+$finish called at time : 7600 ns : File "/home/23EC01021/Music/SNN_ECG_V2/tb/tb_uart_rx.v" Line 255
+INFO: xsimkernel Simulation Memory Usage: 474932 KB (Peak: 532204 KB), Simulation CPU Usage: 550 ms

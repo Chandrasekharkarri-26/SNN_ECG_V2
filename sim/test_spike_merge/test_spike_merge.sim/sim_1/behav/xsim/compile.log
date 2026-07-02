@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/rtl/compute/spike_merge.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spike_merge
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/tb/tb_spike_merge.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_spike_merge
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/sim/test_spike_merge/test_spike_merge.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

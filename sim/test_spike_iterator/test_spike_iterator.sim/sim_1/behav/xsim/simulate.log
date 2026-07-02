@@ -1,0 +1,15 @@
+Time resolution is 1 ps
+[PASS] Test 1: Reset cleared all outputs correctly.
+[PASS] Test 2: Scan verified successfully.
+[PASS] Test 3: Scan verified successfully.
+[PASS] Test 4: Scan verified successfully.
+[PASS] Test 5: Scan verified successfully.
+[PASS] Test 6: Scan verified successfully.
+[PASS] Test 7: Scan verified successfully.
+[PASS] Test 8: Scan verified successfully.
+========================================
+PASSED : 8
+FAILED : 0
+========================================
+$finish called at time : 71960 ns : File "/home/23EC01021/Music/SNN_ECG_V2/tb/tb_spike_iterator.v" Line 266
+INFO: xsimkernel Simulation Memory Usage: 474936 KB (Peak: 532208 KB), Simulation CPU Usage: 580 ms

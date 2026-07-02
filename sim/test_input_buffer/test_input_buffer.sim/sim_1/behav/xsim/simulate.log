@@ -1,0 +1,15 @@
+Time resolution is 1 ps
+=================================================
+ Starting Verification: input_buffer
+=================================================
+[40000] [PASS]                Reset State Check
+[160000] [PASS] Step 0: Continuous 12-byte burst
+[450000] [PASS] 12-byte stream (UART simulation)
+[600000] [PASS] Step 2: Continuous 12-byte burst
+[740000] [PASS] eck: Time Step wraps from 2 to 0
+[870000] [PASS] te packet does not trigger valid
+=================================================
+ [SUCCESS] All 6 checks PASSED!
+=================================================
+$finish called at time : 890 ns : File "/home/23EC01021/Music/SNN_ECG_V2/tb/tb_input_buffer.v" Line 242
+INFO: xsimkernel Simulation Memory Usage: 474932 KB (Peak: 532204 KB), Simulation CPU Usage: 2080 ms

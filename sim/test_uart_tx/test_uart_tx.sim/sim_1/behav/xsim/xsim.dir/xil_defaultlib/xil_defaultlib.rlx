@@ -1,0 +1,7 @@
+0.7
+2020.2
+Nov  8 2024
+22:36:55
+/home/23EC01021/Music/SNN_ECG_V2/rtl/io/uart_tx.v,1782934480,verilog,,/home/23EC01021/Music/SNN_ECG_V2/tb/tb_uart_tx.v,,uart_tx,,,,,,,,
+/home/23EC01021/Music/SNN_ECG_V2/sim/test_uart_tx/test_uart_tx.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,,,,,,,
+/home/23EC01021/Music/SNN_ECG_V2/tb/tb_uart_tx.v,1782986796,verilog,,,,tb_uart_tx,,,,,,,,

@@ -1,0 +1,7 @@
+Running: xsim.dir/tb_spike_iterator_behav/xsimk -simmode gui -wdb tb_spike_iterator_behav.wdb -simrunnum 0 -socket 35851
+Design successfully loaded
+Design Loading Memory Usage: 392940 KB (Peak: 392996 KB)
+Design Loading CPU Usage: 550 ms
+Simulation completed
+Simulation Memory Usage: 474936 KB (Peak: 532208 KB)
+Simulation CPU Usage: 580 ms

@@ -1,0 +1,35 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Thu Jul  2 14:51:05 2026
+# Process ID         : 304386
+# Current directory  : /home/23EC01021/Music/SNN_ECG_V2/sim
+# Command line       : vivado
+# Log file           : /home/23EC01021/Music/SNN_ECG_V2/sim/vivado.log
+# Journal file       : /home/23EC01021/Music/SNN_ECG_V2/sim/vivado.jou
+# Running On         : vlsilab.iitbbs.ac.in
+# Platform           : unknown
+# Operating System   : unknown
+# Processor Detail   : Intel(R) Core(TM) i7-14700
+# CPU Frequency      : 800.341 MHz
+# CPU Physical cores : 20
+# CPU Logical cores  : 28
+# Host memory        : 33107 MB
+# Swap memory        : 42949 MB
+# Total Virtual      : 76057 MB
+# Available Virtual  : 63911 MB
+#-----------------------------------------------------------
+start_gui
+create_project test_uaert_rx /home/23EC01021/Music/SNN_ECG_V2/sim/test_uaert_rx -part xc7vx485tffg1157-1
+add_files -norecurse {/home/23EC01021/Music/SNN_ECG_V2/tb/tb_uart_rx.v /home/23EC01021/Music/SNN_ECG_V2/rtl/io/uart_rx.v}
+update_compile_order -fileset sources_1
+move_files -fileset sim_1 [get_files  /home/23EC01021/Music/SNN_ECG_V2/tb/tb_uart_rx.v]
+launch_simulation
+source tb_uart_rx.tcl
+run 10ms
+close_sim
+close_project
+open_project /home/23EC01021/Music/SNN_ECG_V2/sim/test_neuron_ptr_gen/test_neuron_ptr_gen.xpr
+update_compile_order -fileset sources_1
