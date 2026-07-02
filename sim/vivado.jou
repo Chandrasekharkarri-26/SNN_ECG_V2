@@ -22,3 +22,10 @@
 # Available Virtual  : 63991 MB
 #-----------------------------------------------------------
 start_gui
+create_project test_input_buffer /home/23EC01021/Music/SNN_ECG_V2/sim/test_input_buffer -part xc7vx485tffg1157-1
+add_files -norecurse {/home/23EC01021/Music/SNN_ECG_V2/tb/tb_input_buffer.v /home/23EC01021/Music/SNN_ECG_V2/rtl/io/input_buffer.v}
+update_compile_order -fileset sources_1
+move_files -fileset sim_1 [get_files  /home/23EC01021/Music/SNN_ECG_V2/tb/tb_input_buffer.v]
+launch_simulation
+source tb_input_buffer.tcl
+run 10ms
