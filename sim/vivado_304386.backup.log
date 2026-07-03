@@ -141,3 +141,1312 @@ INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/Data/cad/Xilinx/Vivado/2024.2/data/ip'.
 update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse /home/23EC01021/Music/SNN_ECG_V2/tb/neuron_ptr_gen.v
+update_compile_order -fileset sim_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/neuron_ptr_gen.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/compute/neuron_ptr_gen.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/compute/neuron_ptr_gen.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/compute/neuron_ptr_gen.v:]
+update_compile_order -fileset sim_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/neuron_ptr_gen.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/compute/neuron_ptr_gen.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/neuron_ptr_gen.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/neuron_ptr_gen.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/neuron_ptr_gen.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/compute/neuron_ptr_gen.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/neuron_ptr_gen.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/neuron_ptr_gen.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/neuron_ptr_gen.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/compute/neuron_ptr_gen.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/neuron_ptr_gen.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/neuron_ptr_gen.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/neuron_ptr_gen.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/compute/neuron_ptr_gen.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/neuron_ptr_gen.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/neuron_ptr_gen.v:]
+remove_files  -fileset sim_1 /home/23EC01021/Music/SNN_ECG_V2/tb/neuron_ptr_gen.v
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse /home/23EC01021/Music/SNN_ECG_V2/tb/tb_neuron_ptr_gen.v
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_neuron_ptr_gen'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/23EC01021/Music/SNN_ECG_V2/sim/test_neuron_ptr_gen/test_neuron_ptr_gen.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/Data/cad/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_neuron_ptr_gen' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/23EC01021/Music/SNN_ECG_V2/sim/test_neuron_ptr_gen/test_neuron_ptr_gen.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj tb_neuron_ptr_gen_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/rtl/compute/neuron_ptr_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module neuron_ptr_gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/tb/tb_neuron_ptr_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_neuron_ptr_gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/sim/test_neuron_ptr_gen/test_neuron_ptr_gen.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/23EC01021/Music/SNN_ECG_V2/sim/test_neuron_ptr_gen/test_neuron_ptr_gen.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_neuron_ptr_gen_behav xil_defaultlib.tb_neuron_ptr_gen xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /Data/cad/Xilinx/Vivado/2024.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_neuron_ptr_gen_behav xil_defaultlib.tb_neuron_ptr_gen xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.neuron_ptr_gen(N_NEURON=5)
+Compiling module xil_defaultlib.tb_neuron_ptr_gen
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_neuron_ptr_gen_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/23EC01021/Music/SNN_ECG_V2/sim/test_neuron_ptr_gen/test_neuron_ptr_gen.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_neuron_ptr_gen_behav -key {Behavioral:sim_1:Functional:tb_neuron_ptr_gen} -tclbatch {tb_neuron_ptr_gen.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_neuron_ptr_gen.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+========================================
+Starting Self-Checking Verification...
+========================================
+========================================
+VERIFICATION SUCCESSFUL
+PASSED : 29
+FAILED : 0
+========================================
+$finish called at time : 510 ns : File "/home/23EC01021/Music/SNN_ECG_V2/tb/tb_neuron_ptr_gen.v" Line 283
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_neuron_ptr_gen_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+run 10ms
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+close_sim
+INFO: xsimkernel Simulation Memory Usage: 474932 KB (Peak: 532204 KB), Simulation CPU Usage: 2040 ms
+INFO: [Simtcl 6-16] Simulation closed
+close_project
+create_project test_neuron_fsm /home/23EC01021/Music/SNN_ECG_V2/sim/test_neuron_fsm -part xc7vx485tffg1157-1
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/Data/cad/Xilinx/Vivado/2024.2/data/ip'.
+add_files -norecurse {/home/23EC01021/Music/SNN_ECG_V2/tb/tb_neuron_fsm.v /home/23EC01021/Music/SNN_ECG_V2/rtl/control/neuron_fsm.v}
+update_compile_order -fileset sources_1
+move_files -fileset sim_1 [get_files  /home/23EC01021/Music/SNN_ECG_V2/tb/tb_neuron_fsm.v]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_neuron_fsm'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/23EC01021/Music/SNN_ECG_V2/sim/test_neuron_fsm/test_neuron_fsm.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/Data/cad/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_neuron_fsm' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/23EC01021/Music/SNN_ECG_V2/sim/test_neuron_fsm/test_neuron_fsm.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj tb_neuron_fsm_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/rtl/control/neuron_fsm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module neuron_fsm
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/tb/tb_neuron_fsm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_neuron_fsm
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/sim/test_neuron_fsm/test_neuron_fsm.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '0' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/23EC01021/Music/SNN_ECG_V2/sim/test_neuron_fsm/test_neuron_fsm.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_neuron_fsm_behav xil_defaultlib.tb_neuron_fsm xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /Data/cad/Xilinx/Vivado/2024.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_neuron_fsm_behav xil_defaultlib.tb_neuron_fsm xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.neuron_fsm_default
+Compiling module xil_defaultlib.tb_neuron_fsm
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_neuron_fsm_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/23EC01021/Music/SNN_ECG_V2/sim/test_neuron_fsm/test_neuron_fsm.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_neuron_fsm_behav -key {Behavioral:sim_1:Functional:tb_neuron_fsm} -tclbatch {tb_neuron_fsm.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_neuron_fsm.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+[FAIL] WACC Positive Weight
+========================================
+Total: 7 | Passed: 4 | Failed: 3
+========================================
+$finish called at time : 260 ns : File "/home/23EC01021/Music/SNN_ECG_V2/tb/tb_neuron_fsm.v" Line 137
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_neuron_fsm_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+run 10ms
+relaunch_sim
+INFO: xsimkernel Simulation Memory Usage: 479048 KB (Peak: 532220 KB), Simulation CPU Usage: 3320 ms
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_neuron_fsm'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/23EC01021/Music/SNN_ECG_V2/sim/test_neuron_fsm/test_neuron_fsm.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/Data/cad/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_neuron_fsm' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/23EC01021/Music/SNN_ECG_V2/sim/test_neuron_fsm/test_neuron_fsm.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj tb_neuron_fsm_vlog.prj
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_neuron_fsm'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/23EC01021/Music/SNN_ECG_V2/sim/test_neuron_fsm/test_neuron_fsm.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/23EC01021/Music/SNN_ECG_V2/sim/test_neuron_fsm/test_neuron_fsm.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_neuron_fsm_behav xil_defaultlib.tb_neuron_fsm xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /Data/cad/Xilinx/Vivado/2024.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_neuron_fsm_behav xil_defaultlib.tb_neuron_fsm xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Time resolution is 1 ps
+[FAIL] WACC Positive Weight
+========================================
+Total: 7 | Passed: 4 | Failed: 3
+========================================
+$finish called at time : 260 ns : File "/home/23EC01021/Music/SNN_ECG_V2/tb/tb_neuron_fsm.v" Line 137
+run 10ms
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/control/neuron_fsm.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_neuron_fsm.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/control/neuron_fsm.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/control/neuron_fsm.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/control/neuron_fsm.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_neuron_fsm.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/control/neuron_fsm.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/control/neuron_fsm.v:]
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+close_sim
+INFO: xsimkernel Simulation Memory Usage: 479048 KB (Peak: 532220 KB), Simulation CPU Usage: 3340 ms
+INFO: [Simtcl 6-16] Simulation closed
+close_project
+create_project snn_r1 /home/23EC01021/Music/SNN_ECG_V2/sim/snn_r1 -part xc7vx485tffg1157-1
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/Data/cad/Xilinx/Vivado/2024.2/data/ip'.
+add_files -norecurse {/home/23EC01021/Music/SNN_ECG_V2/rtl/compute/neuron_ptr_gen.v /home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v /home/23EC01021/Music/SNN_ECG_V2/rtl/compute/spike_iterator.v /home/23EC01021/Music/SNN_ECG_V2/rtl/memory/weight_decode.v /home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v /home/23EC01021/Music/SNN_ECG_V2/rtl/control/neuron_fsm.v /home/23EC01021/Music/SNN_ECG_V2/rtl/io/uart_rx.v /home/23EC01021/Music/SNN_ECG_V2/rtl/io/input_buffer.v /home/23EC01021/Music/SNN_ECG_V2/rtl/compute/npu.v /home/23EC01021/Music/SNN_ECG_V2/rtl/compute/spike_merge.v /home/23EC01021/Music/SNN_ECG_V2/rtl/memory/sram_1rw.v /home/23EC01021/Music/SNN_ECG_V2/rtl/classifier/argmax5.v /home/23EC01021/Music/SNN_ECG_V2/rtl/io/uart_tx.v /home/23EC01021/Music/SNN_ECG_V2/rtl/io/output_reader.v /home/23EC01021/Music/SNN_ECG_V2/rtl/memory/neuron_state_sram.v}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse {/home/23EC01021/Music/SNN_ECG_V2/sim/Weight_Connection.mem /home/23EC01021/Music/SNN_ECG_V2/sim/Weight_Entrance.mem /home/23EC01021/Music/SNN_ECG_V2/sim/Neuron_State.mem}
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse /home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v:]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v:]
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_snn_ecg_top'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/23EC01021/Music/SNN_ECG_V2/sim/snn_r1/snn_r1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/Data/cad/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_snn_ecg_top' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported '/home/23EC01021/Music/SNN_ECG_V2/sim/snn_r1/snn_r1.sim/sim_1/behav/xsim/Weight_Connection.mem'
+INFO: [SIM-utils-43] Exported '/home/23EC01021/Music/SNN_ECG_V2/sim/snn_r1/snn_r1.sim/sim_1/behav/xsim/Weight_Entrance.mem'
+INFO: [SIM-utils-43] Exported '/home/23EC01021/Music/SNN_ECG_V2/sim/snn_r1/snn_r1.sim/sim_1/behav/xsim/Neuron_State.mem'
+INFO: [SIM-utils-43] Exported '/home/23EC01021/Music/SNN_ECG_V2/sim/snn_r1/snn_r1.sim/sim_1/behav/xsim/Weight_Connection.mem'
+INFO: [SIM-utils-43] Exported '/home/23EC01021/Music/SNN_ECG_V2/sim/snn_r1/snn_r1.sim/sim_1/behav/xsim/Weight_Entrance.mem'
+INFO: [SIM-utils-43] Exported '/home/23EC01021/Music/SNN_ECG_V2/sim/snn_r1/snn_r1.sim/sim_1/behav/xsim/Neuron_State.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/23EC01021/Music/SNN_ECG_V2/sim/snn_r1/snn_r1.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj tb_snn_ecg_top_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/rtl/classifier/argmax5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module argmax5
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/rtl/io/input_buffer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module input_buffer
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/rtl/control/neuron_fsm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module neuron_fsm
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/rtl/compute/neuron_ptr_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module neuron_ptr_gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/rtl/memory/neuron_state_sram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module neuron_state_sram
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/rtl/compute/npu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module npu
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/rtl/io/output_reader.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module output_reader
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module snn_ecg_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/rtl/compute/spike_iterator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spike_iterator
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/rtl/compute/spike_merge.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spike_merge
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/rtl/memory/sram_1rw.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sram_1rw
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/rtl/io/uart_rx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_rx
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/rtl/io/uart_tx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_tx
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/rtl/memory/weight_decode.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module weight_decode
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_snn_ecg_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/sim/snn_r1/snn_r1.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/23EC01021/Music/SNN_ECG_V2/sim/snn_r1/snn_r1.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_snn_ecg_top_behav xil_defaultlib.tb_snn_ecg_top xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /Data/cad/Xilinx/Vivado/2024.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_snn_ecg_top_behav xil_defaultlib.tb_snn_ecg_top xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-2063] Module <top_fsm> not found while processing module instance <u_tfsm> [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:125]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '0' seconds
+INFO: [USF-XSim-99] Step results log file:'/home/23EC01021/Music/SNN_ECG_V2/sim/snn_r1/snn_r1.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or '/home/23EC01021/Music/SNN_ECG_V2/sim/snn_r1/snn_r1.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+move_files -fileset sim_1 [get_files  /home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v:]
+update_compile_order -fileset sim_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+add_files -norecurse /home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+set_property source_mgmt_mode All [current_project]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v:]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_snn_ecg_top'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/23EC01021/Music/SNN_ECG_V2/sim/snn_r1/snn_r1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/Data/cad/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_snn_ecg_top' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported '/home/23EC01021/Music/SNN_ECG_V2/sim/snn_r1/snn_r1.sim/sim_1/behav/xsim/Weight_Connection.mem'
+INFO: [SIM-utils-43] Exported '/home/23EC01021/Music/SNN_ECG_V2/sim/snn_r1/snn_r1.sim/sim_1/behav/xsim/Weight_Entrance.mem'
+INFO: [SIM-utils-43] Exported '/home/23EC01021/Music/SNN_ECG_V2/sim/snn_r1/snn_r1.sim/sim_1/behav/xsim/Neuron_State.mem'
+INFO: [SIM-utils-43] Exported '/home/23EC01021/Music/SNN_ECG_V2/sim/snn_r1/snn_r1.sim/sim_1/behav/xsim/Weight_Connection.mem'
+INFO: [SIM-utils-43] Exported '/home/23EC01021/Music/SNN_ECG_V2/sim/snn_r1/snn_r1.sim/sim_1/behav/xsim/Weight_Entrance.mem'
+INFO: [SIM-utils-43] Exported '/home/23EC01021/Music/SNN_ECG_V2/sim/snn_r1/snn_r1.sim/sim_1/behav/xsim/Neuron_State.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/23EC01021/Music/SNN_ECG_V2/sim/snn_r1/snn_r1.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj tb_snn_ecg_top_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/rtl/classifier/argmax5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module argmax5
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/rtl/io/input_buffer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module input_buffer
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/rtl/control/neuron_fsm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module neuron_fsm
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/rtl/compute/neuron_ptr_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module neuron_ptr_gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/rtl/memory/neuron_state_sram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module neuron_state_sram
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/rtl/compute/npu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module npu
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/rtl/io/output_reader.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module output_reader
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module snn_ecg_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/rtl/compute/spike_iterator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spike_iterator
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/rtl/compute/spike_merge.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spike_merge
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/rtl/memory/sram_1rw.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sram_1rw
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_fsm
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/rtl/io/uart_rx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_rx
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/rtl/io/uart_tx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_tx
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/rtl/memory/weight_decode.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module weight_decode
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_snn_ecg_top
+ERROR: [VRFC 10-4982] syntax error near '+' [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:82]
+ERROR: [VRFC 10-4982] syntax error near '+' [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:84]
+ERROR: [VRFC 10-8885] declarations are not allowed in an unnamed block [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:82]
+WARNING: [VRFC 10-2096] empty statement in sequential block [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:84]
+ERROR: [VRFC 10-2969] 'inference_cnt' is not a type [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:82]
+ERROR: [VRFC 10-8530] module 'tb_snn_ecg_top' is ignored due to previous errors [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:7]
+INFO: [USF-XSim-69] 'compile' step finished in '0' seconds
+INFO: [USF-XSim-99] Step results log file:'/home/23EC01021/Music/SNN_ECG_V2/sim/snn_r1/snn_r1.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or '/home/23EC01021/Music/SNN_ECG_V2/sim/snn_r1/snn_r1.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_snn_ecg_top'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/23EC01021/Music/SNN_ECG_V2/sim/snn_r1/snn_r1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/Data/cad/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_snn_ecg_top' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported '/home/23EC01021/Music/SNN_ECG_V2/sim/snn_r1/snn_r1.sim/sim_1/behav/xsim/Weight_Connection.mem'
+INFO: [SIM-utils-43] Exported '/home/23EC01021/Music/SNN_ECG_V2/sim/snn_r1/snn_r1.sim/sim_1/behav/xsim/Weight_Entrance.mem'
+INFO: [SIM-utils-43] Exported '/home/23EC01021/Music/SNN_ECG_V2/sim/snn_r1/snn_r1.sim/sim_1/behav/xsim/Neuron_State.mem'
+INFO: [SIM-utils-43] Exported '/home/23EC01021/Music/SNN_ECG_V2/sim/snn_r1/snn_r1.sim/sim_1/behav/xsim/Weight_Connection.mem'
+INFO: [SIM-utils-43] Exported '/home/23EC01021/Music/SNN_ECG_V2/sim/snn_r1/snn_r1.sim/sim_1/behav/xsim/Weight_Entrance.mem'
+INFO: [SIM-utils-43] Exported '/home/23EC01021/Music/SNN_ECG_V2/sim/snn_r1/snn_r1.sim/sim_1/behav/xsim/Neuron_State.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/23EC01021/Music/SNN_ECG_V2/sim/snn_r1/snn_r1.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj tb_snn_ecg_top_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/rtl/classifier/argmax5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module argmax5
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/rtl/io/input_buffer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module input_buffer
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/rtl/control/neuron_fsm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module neuron_fsm
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/rtl/compute/neuron_ptr_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module neuron_ptr_gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/rtl/memory/neuron_state_sram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module neuron_state_sram
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/rtl/compute/npu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module npu
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/rtl/io/output_reader.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module output_reader
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module snn_ecg_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/rtl/compute/spike_iterator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spike_iterator
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/rtl/compute/spike_merge.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spike_merge
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/rtl/memory/sram_1rw.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sram_1rw
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_fsm
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/rtl/io/uart_rx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_rx
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/rtl/io/uart_tx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_tx
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/rtl/memory/weight_decode.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module weight_decode
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_snn_ecg_top
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/23EC01021/Music/SNN_ECG_V2/sim/snn_r1/snn_r1.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_snn_ecg_top_behav xil_defaultlib.tb_snn_ecg_top xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /Data/cad/Xilinx/Vivado/2024.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_snn_ecg_top_behav xil_defaultlib.tb_snn_ecg_top xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.uart_rx_default
+Compiling module xil_defaultlib.input_buffer
+Compiling module xil_defaultlib.top_fsm
+Compiling module xil_defaultlib.spike_merge_default
+Compiling module xil_defaultlib.spike_iterator
+Compiling module xil_defaultlib.sram_1rw(DATA_WIDTH=25,INIT_FILE...
+Compiling module xil_defaultlib.sram_1rw(ADDR_WIDTH=15,INIT_FILE...
+Compiling module xil_defaultlib.weight_decode_default
+Compiling module xil_defaultlib.sram_1rw(DATA_WIDTH=15,INIT_FILE...
+Compiling module xil_defaultlib.neuron_state_sram
+Compiling module xil_defaultlib.neuron_ptr_gen
+Compiling module xil_defaultlib.neuron_fsm_default
+Compiling module xil_defaultlib.npu_default
+Compiling module xil_defaultlib.output_reader
+Compiling module xil_defaultlib.argmax5
+Compiling module xil_defaultlib.uart_tx_default
+Compiling module xil_defaultlib.snn_ecg_top
+Compiling module xil_defaultlib.tb_snn_ecg_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_snn_ecg_top_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/23EC01021/Music/SNN_ECG_V2/sim/snn_r1/snn_r1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_snn_ecg_top_behav -key {Behavioral:sim_1:Functional:tb_snn_ecg_top} -tclbatch {tb_snn_ecg_top.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_snn_ecg_top.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+=== SNN_ECG_V2 Testbench Started ===
+Sending first test inference...
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_snn_ecg_top_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+run 30ms
+Error: === TEST FAILED: No output received ===
+Time: 3326075 ns  Iteration: 0  Process: /tb_snn_ecg_top/Initial83_20  Scope: tb_snn_ecg_top  File: /home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v Line: 100
+$finish called at time : 3376075 ns : File "/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v" Line 104
+current_wave_config {Untitled 4}
+Untitled 4
+add_wave {{/tb_snn_ecg_top/dut}} 
+relaunch_sim
+INFO: xsimkernel Simulation Memory Usage: 479336 KB (Peak: 532508 KB), Simulation CPU Usage: 690 ms
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_snn_ecg_top'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/23EC01021/Music/SNN_ECG_V2/sim/snn_r1/snn_r1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/23EC01021/Music/SNN_ECG_V2/sim/snn_r1/snn_r1.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj tb_snn_ecg_top_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_fsm
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_snn_ecg_top
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_snn_ecg_top'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/23EC01021/Music/SNN_ECG_V2/sim/snn_r1/snn_r1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/23EC01021/Music/SNN_ECG_V2/sim/snn_r1/snn_r1.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_snn_ecg_top_behav xil_defaultlib.tb_snn_ecg_top xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /Data/cad/Xilinx/Vivado/2024.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_snn_ecg_top_behav xil_defaultlib.tb_snn_ecg_top xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.uart_rx_default
+Compiling module xil_defaultlib.input_buffer
+Compiling module xil_defaultlib.top_fsm
+Compiling module xil_defaultlib.spike_merge_default
+Compiling module xil_defaultlib.spike_iterator
+Compiling module xil_defaultlib.sram_1rw(DATA_WIDTH=25,INIT_FILE...
+Compiling module xil_defaultlib.sram_1rw(ADDR_WIDTH=15,INIT_FILE...
+Compiling module xil_defaultlib.weight_decode_default
+Compiling module xil_defaultlib.sram_1rw(DATA_WIDTH=15,INIT_FILE...
+Compiling module xil_defaultlib.neuron_state_sram
+Compiling module xil_defaultlib.neuron_ptr_gen
+Compiling module xil_defaultlib.neuron_fsm_default
+Compiling module xil_defaultlib.npu_default
+Compiling module xil_defaultlib.output_reader
+Compiling module xil_defaultlib.argmax5
+Compiling module xil_defaultlib.uart_tx_default
+Compiling module xil_defaultlib.snn_ecg_top
+Compiling module xil_defaultlib.tb_snn_ecg_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_snn_ecg_top_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Time resolution is 1 ps
+=== SNN_ECG_V2 Testbench Started ===
+Sending first test inference...
+run 10ms
+Error: === TEST FAILED: No output received ===
+Time: 3326075 ns  Iteration: 0  Process: /tb_snn_ecg_top/Initial83_20  Scope: tb_snn_ecg_top  File: /home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v Line: 100
+$finish called at time : 3376075 ns : File "/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v" Line 104
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+create_project 26jun /home/23EC01021/Music/SNN_ECG_V2/sim/26jun -part xc7vx485tffg1157-1
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/Data/cad/Xilinx/Vivado/2024.2/data/ip'.
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+add_files -norecurse {/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/Weight_Entrance.mem /home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/Weight_Connection.mem /home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/Neuron_State.mem}
+add_files -norecurse {/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/weight_decode.v /home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/neuron_fsm.v /home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/tb_snn_ecg.v /home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/argmax5.v /home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/uart_tx.v /home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/output_reader.v /home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/npu.v /home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/input_buffer.v /home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/spike_iterator.v /home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/uart_rx.v /home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/sram_1rw.v /home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/neuron_state_sram.v /home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/spike_merge.v /home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/neuron_ptr_gen.v /home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/snn_ecg_top.v /home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/top_fsm.v}
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v:]
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+move_files -fileset sim_1 [get_files  /home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/tb_snn_ecg.v]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+launch_runs synth_1 -jobs 28
+WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
+[Thu Jul  2 22:46:20 2026] Launched synth_1...
+Run output will be captured here: /home/23EC01021/Music/SNN_ECG_V2/sim/26jun/26jun.runs/synth_1/runme.log
+reset_run synth_1
+INFO: [Project 1-1160] Copying file /home/23EC01021/Music/SNN_ECG_V2/sim/26jun/26jun.runs/synth_1/snn_ecg_top.dcp to /home/23EC01021/Music/SNN_ECG_V2/sim/26jun/26jun.srcs/utils_1/imports/synth_1 and adding it to utils fileset
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v:]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_snn_ecg'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/23EC01021/Music/SNN_ECG_V2/sim/26jun/26jun.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/Data/cad/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_snn_ecg' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported '/home/23EC01021/Music/SNN_ECG_V2/sim/26jun/26jun.sim/sim_1/behav/xsim/Weight_Entrance.mem'
+INFO: [SIM-utils-43] Exported '/home/23EC01021/Music/SNN_ECG_V2/sim/26jun/26jun.sim/sim_1/behav/xsim/Weight_Connection.mem'
+INFO: [SIM-utils-43] Exported '/home/23EC01021/Music/SNN_ECG_V2/sim/26jun/26jun.sim/sim_1/behav/xsim/Neuron_State.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/23EC01021/Music/SNN_ECG_V2/sim/26jun/26jun.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj tb_snn_ecg_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/argmax5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module argmax5
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/input_buffer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module input_buffer
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/neuron_fsm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module neuron_fsm
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/neuron_ptr_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module neuron_ptr_gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/neuron_state_sram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module neuron_state_sram
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/npu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module npu
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/output_reader.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module output_reader
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/snn_ecg_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module snn_ecg_top
+WARNING: [VRFC 10-2938] 'wd_last' is already implicitly declared on line 57 [/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/snn_ecg_top.v:94]
+WARNING: [VRFC 10-2938] 'wacc_done' is already implicitly declared on line 99 [/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/snn_ecg_top.v:106]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/spike_iterator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spike_iterator
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/spike_merge.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spike_merge
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/sram_1rw.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sram_1rw
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/top_fsm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_fsm
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/uart_rx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_rx
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/uart_tx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_tx
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/weight_decode.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module weight_decode
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/tb_snn_ecg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_snn_ecg
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/sim/26jun/26jun.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/23EC01021/Music/SNN_ECG_V2/sim/26jun/26jun.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_snn_ecg_behav xil_defaultlib.tb_snn_ecg xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /Data/cad/Xilinx/Vivado/2024.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_snn_ecg_behav xil_defaultlib.tb_snn_ecg xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/snn_ecg_top.v" Line 1. Module snn_ecg_top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/uart_rx.v" Line 1. Module uart_rx_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/input_buffer.v" Line 7. Module input_buffer doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/top_fsm.v" Line 1. Module top_fsm doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/spike_merge.v" Line 10. Module spike_merge doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/spike_iterator.v" Line 1. Module spike_iterator doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/weight_decode.v" Line 1. Module weight_decode_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/sram_1rw.v" Line 12. Module sram_1rw(DATA_WIDTH=25,INIT_FILE="Weight_Entrance.mem") doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/sram_1rw.v" Line 12. Module sram_1rw(DATA_WIDTH=16,ADDR_WIDTH=15,INIT_FILE="Weight_Connection.mem") doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/npu.v" Line 1. Module npu doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/neuron_state_sram.v" Line 6. Module neuron_state_sram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/sram_1rw.v" Line 12. Module sram_1rw(INIT_FILE="Neuron_State.mem") doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/neuron_ptr_gen.v" Line 1. Module neuron_ptr_gen doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/neuron_fsm.v" Line 1. Module neuron_fsm doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/output_reader.v" Line 1. Module output_reader doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/argmax5.v" Line 7. Module argmax5 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/uart_tx.v" Line 1. Module uart_tx_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/snn_ecg_top.v" Line 1. Module snn_ecg_top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/uart_rx.v" Line 1. Module uart_rx_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/input_buffer.v" Line 7. Module input_buffer doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/top_fsm.v" Line 1. Module top_fsm doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/spike_merge.v" Line 10. Module spike_merge doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/spike_iterator.v" Line 1. Module spike_iterator doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/weight_decode.v" Line 1. Module weight_decode_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/sram_1rw.v" Line 12. Module sram_1rw(DATA_WIDTH=25,INIT_FILE="Weight_Entrance.mem") doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/sram_1rw.v" Line 12. Module sram_1rw(DATA_WIDTH=16,ADDR_WIDTH=15,INIT_FILE="Weight_Connection.mem") doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/npu.v" Line 1. Module npu doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/neuron_state_sram.v" Line 6. Module neuron_state_sram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/sram_1rw.v" Line 12. Module sram_1rw(INIT_FILE="Neuron_State.mem") doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/neuron_ptr_gen.v" Line 1. Module neuron_ptr_gen doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/neuron_fsm.v" Line 1. Module neuron_fsm doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/output_reader.v" Line 1. Module output_reader doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/argmax5.v" Line 7. Module argmax5 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/uart_tx.v" Line 1. Module uart_tx_default doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.uart_rx_default
+Compiling module xil_defaultlib.input_buffer
+Compiling module xil_defaultlib.top_fsm
+Compiling module xil_defaultlib.spike_merge
+Compiling module xil_defaultlib.spike_iterator
+Compiling module xil_defaultlib.sram_1rw(DATA_WIDTH=25,INIT_FILE...
+Compiling module xil_defaultlib.sram_1rw(DATA_WIDTH=16,ADDR_WIDT...
+Compiling module xil_defaultlib.weight_decode_default
+Compiling module xil_defaultlib.sram_1rw(INIT_FILE="Neuron_State...
+Compiling module xil_defaultlib.neuron_state_sram
+Compiling module xil_defaultlib.neuron_ptr_gen
+Compiling module xil_defaultlib.neuron_fsm
+Compiling module xil_defaultlib.npu
+Compiling module xil_defaultlib.output_reader
+Compiling module xil_defaultlib.argmax5
+Compiling module xil_defaultlib.uart_tx_default
+Compiling module xil_defaultlib.snn_ecg_top
+Compiling module xil_defaultlib.tb_snn_ecg
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_snn_ecg_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/23EC01021/Music/SNN_ECG_V2/sim/26jun/26jun.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_snn_ecg_behav -key {Behavioral:sim_1:Functional:tb_snn_ecg} -tclbatch {tb_snn_ecg.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_snn_ecg.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+========================================
+Loading stimulus files...
+========================================
+WARNING: File stimuli_lo.hex referenced on /home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/uart_tx.v at line 20 cannot be opened for reading. Please ensure that this file is available in the current working directory or parent directory of xsim.dir location specified via -xsimdir switch.
+WARNING: File stimuli_mid.hex referenced on /home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/uart_tx.v at line 20 cannot be opened for reading. Please ensure that this file is available in the current working directory or parent directory of xsim.dir location specified via -xsimdir switch.
+WARNING: File stimuli_hi.hex referenced on /home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/uart_tx.v at line 20 cannot be opened for reading. Please ensure that this file is available in the current working directory or parent directory of xsim.dir location specified via -xsimdir switch.
+WARNING: File labels.hex referenced on /home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/uart_tx.v at line 20 cannot be opened for reading. Please ensure that this file is available in the current working directory or parent directory of xsim.dir location specified via -xsimdir switch.
+Loading trained network memories...
+Memory load complete.
+[205000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[215000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[225000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[235000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[245000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[255000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[265000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[275000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[285000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[295000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[305000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[315000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[325000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[335000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[345000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[355000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[365000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[375000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[385000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[395000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+========================================
+Starting beat transmission...
+========================================
+Sending beat 0
+[405000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[415000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[425000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[435000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[445000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[455000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[465000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[475000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[485000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[495000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[505000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[515000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[525000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[535000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[545000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[555000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[565000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[575000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[585000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[595000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[605000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[615000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[625000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[635000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[645000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[655000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[665000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[675000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[685000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[695000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[705000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[715000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[725000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[735000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[745000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[755000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[765000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[775000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[785000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[795000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[805000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[815000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[825000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[835000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[845000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[855000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[865000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[875000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[885000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[895000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[905000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[915000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[925000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[935000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[945000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[955000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[965000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[975000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[985000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[995000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_snn_ecg_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: xsimkernel Simulation Memory Usage: 479364 KB (Peak: 532536 KB), Simulation CPU Usage: 560 ms
+INFO: [Simtcl 6-16] Simulation closed
+close_project
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+close_sim
+INFO: xsimkernel Simulation Memory Usage: 479336 KB (Peak: 532508 KB), Simulation CPU Usage: 720 ms
+INFO: [Simtcl 6-16] Simulation closed
+close_project
+create_project jun21 /home/23EC01021/Music/SNN_ECG_V2/sim/jun21 -part xc7vx485tffg1157-1
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/Data/cad/Xilinx/Vivado/2024.2/data/ip'.
+add_files -norecurse {/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/Weight_Connection.mem /home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/Neuron_State.mem /home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/Weight_Entrance.mem}
+add_files -norecurse {/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/output_reader.v /home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/snn_ecg_top.v /home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/weight_decode.v /home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/neuron_fsm.v /home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/tb_snn_ecg.v /home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/spike_iterator.v /home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/top_fsm.v /home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/neuron_ptr_gen.v /home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/npu.v /home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/spike_merge.v /home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/argmax5.v /home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/neuron_state_sram.v /home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/uart_rx.v /home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/input_buffer.v /home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/sram_1rw.v /home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/uart_tx.v}
+update_compile_order -fileset sources_1
+move_files -fileset sim_1 [get_files  /home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/tb_snn_ecg.v]
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_snn_ecg'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/23EC01021/Music/SNN_ECG_V2/sim/jun21/jun21.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/Data/cad/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_snn_ecg' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported '/home/23EC01021/Music/SNN_ECG_V2/sim/jun21/jun21.sim/sim_1/behav/xsim/Weight_Connection.mem'
+INFO: [SIM-utils-43] Exported '/home/23EC01021/Music/SNN_ECG_V2/sim/jun21/jun21.sim/sim_1/behav/xsim/Neuron_State.mem'
+INFO: [SIM-utils-43] Exported '/home/23EC01021/Music/SNN_ECG_V2/sim/jun21/jun21.sim/sim_1/behav/xsim/Weight_Entrance.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/23EC01021/Music/SNN_ECG_V2/sim/jun21/jun21.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj tb_snn_ecg_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/argmax5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module argmax5
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/input_buffer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module input_buffer
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/neuron_fsm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module neuron_fsm
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/neuron_ptr_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module neuron_ptr_gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/neuron_state_sram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module neuron_state_sram
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/npu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module npu
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/output_reader.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module output_reader
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/snn_ecg_top.v" into library xil_defaultlib
+ERROR: [VRFC 10-3195] cannot open include file '../common/snn_parameters.vh' [/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/snn_ecg_top.v:4]
+ERROR: [VRFC 10-3195] cannot open include file '../common/snn_states.vh' [/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/snn_ecg_top.v:5]
+ERROR: [VRFC 10-3195] cannot open include file '../common/snn_constants.vh' [/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/snn_ecg_top.v:6]
+INFO: [VRFC 10-311] analyzing module snn_ecg_top
+WARNING: [VRFC 10-2938] 'or_ns_addr' is already implicitly declared on line 206 [/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/snn_ecg_top.v:219]
+WARNING: [VRFC 10-2938] 'or_ns_ce' is already implicitly declared on line 207 [/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/snn_ecg_top.v:220]
+WARNING: [VRFC 10-2938] 'ns_rdata_shared' is already implicitly declared on line 208 [/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/snn_ecg_top.v:221]
+WARNING: [VRFC 10-2938] 'or_valid' is already implicitly declared on line 113 [/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/snn_ecg_top.v:223]
+ERROR: [VRFC 10-8530] module 'snn_ecg_top' is ignored due to previous errors [/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/snn_ecg_top.v:40]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'/home/23EC01021/Music/SNN_ECG_V2/sim/jun21/jun21.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or '/home/23EC01021/Music/SNN_ECG_V2/sim/jun21/jun21.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_snn_ecg'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/23EC01021/Music/SNN_ECG_V2/sim/jun21/jun21.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/Data/cad/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_snn_ecg' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported '/home/23EC01021/Music/SNN_ECG_V2/sim/jun21/jun21.sim/sim_1/behav/xsim/Weight_Connection.mem'
+INFO: [SIM-utils-43] Exported '/home/23EC01021/Music/SNN_ECG_V2/sim/jun21/jun21.sim/sim_1/behav/xsim/Neuron_State.mem'
+INFO: [SIM-utils-43] Exported '/home/23EC01021/Music/SNN_ECG_V2/sim/jun21/jun21.sim/sim_1/behav/xsim/Weight_Entrance.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/23EC01021/Music/SNN_ECG_V2/sim/jun21/jun21.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj tb_snn_ecg_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/argmax5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module argmax5
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/input_buffer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module input_buffer
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/neuron_fsm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module neuron_fsm
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/neuron_ptr_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module neuron_ptr_gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/neuron_state_sram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module neuron_state_sram
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/npu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module npu
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/output_reader.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module output_reader
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/snn_ecg_top.v" into library xil_defaultlib
+ERROR: [VRFC 10-3195] cannot open include file '../common/snn_parameters.vh' [/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/snn_ecg_top.v:4]
+ERROR: [VRFC 10-3195] cannot open include file '../common/snn_states.vh' [/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/snn_ecg_top.v:5]
+ERROR: [VRFC 10-3195] cannot open include file '../common/snn_constants.vh' [/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/snn_ecg_top.v:6]
+INFO: [VRFC 10-311] analyzing module snn_ecg_top
+WARNING: [VRFC 10-2938] 'or_ns_addr' is already implicitly declared on line 206 [/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/snn_ecg_top.v:219]
+WARNING: [VRFC 10-2938] 'or_ns_ce' is already implicitly declared on line 207 [/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/snn_ecg_top.v:220]
+WARNING: [VRFC 10-2938] 'ns_rdata_shared' is already implicitly declared on line 208 [/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/snn_ecg_top.v:221]
+WARNING: [VRFC 10-2938] 'or_valid' is already implicitly declared on line 113 [/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/snn_ecg_top.v:223]
+ERROR: [VRFC 10-8530] module 'snn_ecg_top' is ignored due to previous errors [/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/snn_ecg_top.v:40]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'/home/23EC01021/Music/SNN_ECG_V2/sim/jun21/jun21.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or '/home/23EC01021/Music/SNN_ECG_V2/sim/jun21/jun21.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_snn_ecg'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/23EC01021/Music/SNN_ECG_V2/sim/jun21/jun21.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/Data/cad/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_snn_ecg' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported '/home/23EC01021/Music/SNN_ECG_V2/sim/jun21/jun21.sim/sim_1/behav/xsim/Weight_Connection.mem'
+INFO: [SIM-utils-43] Exported '/home/23EC01021/Music/SNN_ECG_V2/sim/jun21/jun21.sim/sim_1/behav/xsim/Neuron_State.mem'
+INFO: [SIM-utils-43] Exported '/home/23EC01021/Music/SNN_ECG_V2/sim/jun21/jun21.sim/sim_1/behav/xsim/Weight_Entrance.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/23EC01021/Music/SNN_ECG_V2/sim/jun21/jun21.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj tb_snn_ecg_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/argmax5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module argmax5
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/input_buffer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module input_buffer
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/neuron_fsm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module neuron_fsm
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/neuron_ptr_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module neuron_ptr_gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/neuron_state_sram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module neuron_state_sram
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/npu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module npu
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/output_reader.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module output_reader
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/snn_ecg_top.v" into library xil_defaultlib
+ERROR: [VRFC 10-3195] cannot open include file '../common/snn_parameters.vh' [/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/snn_ecg_top.v:4]
+ERROR: [VRFC 10-3195] cannot open include file '../common/snn_states.vh' [/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/snn_ecg_top.v:5]
+ERROR: [VRFC 10-3195] cannot open include file '../common/snn_constants.vh' [/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/snn_ecg_top.v:6]
+INFO: [VRFC 10-311] analyzing module snn_ecg_top
+WARNING: [VRFC 10-2938] 'or_ns_addr' is already implicitly declared on line 206 [/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/snn_ecg_top.v:219]
+WARNING: [VRFC 10-2938] 'or_ns_ce' is already implicitly declared on line 207 [/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/snn_ecg_top.v:220]
+WARNING: [VRFC 10-2938] 'ns_rdata_shared' is already implicitly declared on line 208 [/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/snn_ecg_top.v:221]
+WARNING: [VRFC 10-2938] 'or_valid' is already implicitly declared on line 113 [/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/snn_ecg_top.v:223]
+ERROR: [VRFC 10-8530] module 'snn_ecg_top' is ignored due to previous errors [/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/snn_ecg_top.v:40]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'/home/23EC01021/Music/SNN_ECG_V2/sim/jun21/jun21.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or '/home/23EC01021/Music/SNN_ECG_V2/sim/jun21/jun21.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_snn_ecg'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/23EC01021/Music/SNN_ECG_V2/sim/jun21/jun21.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/Data/cad/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_snn_ecg' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported '/home/23EC01021/Music/SNN_ECG_V2/sim/jun21/jun21.sim/sim_1/behav/xsim/Weight_Connection.mem'
+INFO: [SIM-utils-43] Exported '/home/23EC01021/Music/SNN_ECG_V2/sim/jun21/jun21.sim/sim_1/behav/xsim/Neuron_State.mem'
+INFO: [SIM-utils-43] Exported '/home/23EC01021/Music/SNN_ECG_V2/sim/jun21/jun21.sim/sim_1/behav/xsim/Weight_Entrance.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/23EC01021/Music/SNN_ECG_V2/sim/jun21/jun21.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj tb_snn_ecg_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/argmax5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module argmax5
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/input_buffer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module input_buffer
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/neuron_fsm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module neuron_fsm
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/neuron_ptr_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module neuron_ptr_gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/neuron_state_sram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module neuron_state_sram
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/npu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module npu
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/output_reader.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module output_reader
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/snn_ecg_top.v" into library xil_defaultlib
+ERROR: [VRFC 10-3195] cannot open include file '../common/snn_parameters.vh' [/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/snn_ecg_top.v:4]
+ERROR: [VRFC 10-3195] cannot open include file '../common/snn_states.vh' [/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/snn_ecg_top.v:5]
+ERROR: [VRFC 10-3195] cannot open include file '../common/snn_constants.vh' [/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/snn_ecg_top.v:6]
+INFO: [VRFC 10-311] analyzing module snn_ecg_top
+WARNING: [VRFC 10-2938] 'or_ns_addr' is already implicitly declared on line 206 [/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/snn_ecg_top.v:219]
+WARNING: [VRFC 10-2938] 'or_ns_ce' is already implicitly declared on line 207 [/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/snn_ecg_top.v:220]
+WARNING: [VRFC 10-2938] 'ns_rdata_shared' is already implicitly declared on line 208 [/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/snn_ecg_top.v:221]
+WARNING: [VRFC 10-2938] 'or_valid' is already implicitly declared on line 113 [/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/snn_ecg_top.v:223]
+ERROR: [VRFC 10-8530] module 'snn_ecg_top' is ignored due to previous errors [/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/snn_ecg_top.v:40]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'/home/23EC01021/Music/SNN_ECG_V2/sim/jun21/jun21.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or '/home/23EC01021/Music/SNN_ECG_V2/sim/jun21/jun21.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Jul  2 22:49:42 2026...

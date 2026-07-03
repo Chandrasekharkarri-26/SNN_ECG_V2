@@ -1,0 +1,7 @@
+Time resolution is 1 ps
+=== SNN_ECG_V2 Testbench Started ===
+Sending first test inference...
+Error: === TEST FAILED: No output received ===
+Time: 3326075 ns  Iteration: 0  Process: /tb_snn_ecg_top/Initial83_20  Scope: tb_snn_ecg_top  File: /home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v Line: 100
+$finish called at time : 3376075 ns : File "/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v" Line 104
+INFO: xsimkernel Simulation Memory Usage: 479336 KB (Peak: 532508 KB), Simulation CPU Usage: 720 ms

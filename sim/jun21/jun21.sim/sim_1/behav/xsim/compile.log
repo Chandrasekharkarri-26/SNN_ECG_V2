@@ -1,0 +1,24 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/argmax5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module argmax5
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/input_buffer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module input_buffer
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/neuron_fsm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module neuron_fsm
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/neuron_ptr_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module neuron_ptr_gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/neuron_state_sram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module neuron_state_sram
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/npu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module npu
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/output_reader.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module output_reader
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/snn_ecg_top.v" into library xil_defaultlib
+ERROR: [VRFC 10-3195] cannot open include file '../common/snn_parameters.vh' [/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/snn_ecg_top.v:4]
+ERROR: [VRFC 10-3195] cannot open include file '../common/snn_states.vh' [/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/snn_ecg_top.v:5]
+ERROR: [VRFC 10-3195] cannot open include file '../common/snn_constants.vh' [/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/snn_ecg_top.v:6]
+INFO: [VRFC 10-311] analyzing module snn_ecg_top
+WARNING: [VRFC 10-2938] 'or_ns_addr' is already implicitly declared on line 206 [/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/snn_ecg_top.v:219]
+WARNING: [VRFC 10-2938] 'or_ns_ce' is already implicitly declared on line 207 [/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/snn_ecg_top.v:220]
+WARNING: [VRFC 10-2938] 'ns_rdata_shared' is already implicitly declared on line 208 [/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/snn_ecg_top.v:221]
+WARNING: [VRFC 10-2938] 'or_valid' is already implicitly declared on line 113 [/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/snn_ecg_top.v:223]
+ERROR: [VRFC 10-8530] module 'snn_ecg_top' is ignored due to previous errors [/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/snn_ecg_top.v:40]

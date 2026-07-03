@@ -1,0 +1,21 @@
+0.7
+2020.2
+Nov  8 2024
+22:36:55
+/home/23EC01021/Music/SNN_ECG_V2/rtl/classifier/argmax5.v,1782935350,verilog,,/home/23EC01021/Music/SNN_ECG_V2/rtl/io/input_buffer.v,,argmax5,,,,,,,,
+/home/23EC01021/Music/SNN_ECG_V2/rtl/compute/neuron_ptr_gen.v,1782931594,verilog,,/home/23EC01021/Music/SNN_ECG_V2/rtl/memory/neuron_state_sram.v,,neuron_ptr_gen,,,,,,,,
+/home/23EC01021/Music/SNN_ECG_V2/rtl/compute/npu.v,1782929596,verilog,,/home/23EC01021/Music/SNN_ECG_V2/rtl/io/output_reader.v,,npu,,,,,,,,
+/home/23EC01021/Music/SNN_ECG_V2/rtl/compute/spike_iterator.v,1782931461,verilog,,/home/23EC01021/Music/SNN_ECG_V2/rtl/compute/spike_merge.v,,spike_iterator,,,,,,,,
+/home/23EC01021/Music/SNN_ECG_V2/rtl/compute/spike_merge.v,1782931270,verilog,,/home/23EC01021/Music/SNN_ECG_V2/rtl/memory/sram_1rw.v,,spike_merge,,,,,,,,
+/home/23EC01021/Music/SNN_ECG_V2/rtl/control/neuron_fsm.v,1782999767,verilog,,/home/23EC01021/Music/SNN_ECG_V2/rtl/compute/neuron_ptr_gen.v,,neuron_fsm,,,,,,,,
+/home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v,1783012275,verilog,,/home/23EC01021/Music/SNN_ECG_V2/rtl/io/uart_rx.v,,top_fsm,,,,,,,,
+/home/23EC01021/Music/SNN_ECG_V2/rtl/io/input_buffer.v,1783009429,verilog,,/home/23EC01021/Music/SNN_ECG_V2/rtl/control/neuron_fsm.v,,input_buffer,,,,,,,,
+/home/23EC01021/Music/SNN_ECG_V2/rtl/io/output_reader.v,1782931912,verilog,,/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v,,output_reader,,,,,,,,
+/home/23EC01021/Music/SNN_ECG_V2/rtl/io/uart_rx.v,1782932158,verilog,,/home/23EC01021/Music/SNN_ECG_V2/rtl/io/uart_tx.v,,uart_rx,,,,,,,,
+/home/23EC01021/Music/SNN_ECG_V2/rtl/io/uart_tx.v,1782934480,verilog,,/home/23EC01021/Music/SNN_ECG_V2/rtl/memory/weight_decode.v,,uart_tx,,,,,,,,
+/home/23EC01021/Music/SNN_ECG_V2/rtl/memory/neuron_state_sram.v,1782931737,verilog,,/home/23EC01021/Music/SNN_ECG_V2/rtl/compute/npu.v,,neuron_state_sram,,,,,,,,
+/home/23EC01021/Music/SNN_ECG_V2/rtl/memory/sram_1rw.v,1782930166,verilog,,/home/23EC01021/Music/SNN_ECG_V2/rtl/control/top_fsm.v,,sram_1rw,,,,,,,,
+/home/23EC01021/Music/SNN_ECG_V2/rtl/memory/weight_decode.v,1782929985,verilog,,/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v,,weight_decode,,,,,,,,
+/home/23EC01021/Music/SNN_ECG_V2/rtl/top/snn_ecg_top.v,1782928027,verilog,,/home/23EC01021/Music/SNN_ECG_V2/rtl/compute/spike_iterator.v,,snn_ecg_top,,,,,,,,
+/home/23EC01021/Music/SNN_ECG_V2/sim/snn_r1/snn_r1.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,,,,,,,
+/home/23EC01021/Music/SNN_ECG_V2/tb/tb_top.v,1783012348,verilog,,,,tb_snn_ecg_top,,,,,,,,

@@ -189,6 +189,7 @@ module neuron_fsm #(
                 // Converged Write-Back Path
                 // ------------------------------------------------------------
                 ST_WR_NS: begin
+                
                     // Step 3: Write the updated potential and unmodified constants back to SRAM
                     ns_ce    <= 1'b1;
                     ns_we    <= 1'b1;

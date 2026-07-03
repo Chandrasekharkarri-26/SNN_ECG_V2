@@ -1,0 +1,95 @@
+Time resolution is 1 ps
+========================================
+Loading stimulus files...
+========================================
+WARNING: File stimuli_lo.hex referenced on /home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/uart_tx.v at line 20 cannot be opened for reading. Please ensure that this file is available in the current working directory or parent directory of xsim.dir location specified via -xsimdir switch.
+WARNING: File stimuli_mid.hex referenced on /home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/uart_tx.v at line 20 cannot be opened for reading. Please ensure that this file is available in the current working directory or parent directory of xsim.dir location specified via -xsimdir switch.
+WARNING: File stimuli_hi.hex referenced on /home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/uart_tx.v at line 20 cannot be opened for reading. Please ensure that this file is available in the current working directory or parent directory of xsim.dir location specified via -xsimdir switch.
+WARNING: File labels.hex referenced on /home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/uart_tx.v at line 20 cannot be opened for reading. Please ensure that this file is available in the current working directory or parent directory of xsim.dir location specified via -xsimdir switch.
+Loading trained network memories...
+Memory load complete.
+[205000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[215000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[225000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[235000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[245000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[255000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[265000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[275000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[285000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[295000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[305000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[315000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[325000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[335000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[345000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[355000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[365000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[375000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[385000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[395000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+========================================
+Starting beat transmission...
+========================================
+Sending beat 0
+[405000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[415000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[425000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[435000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[445000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[455000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[465000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[475000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[485000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[495000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[505000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[515000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[525000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[535000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[545000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[555000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[565000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[575000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[585000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[595000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[605000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[615000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[625000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[635000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[645000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[655000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[665000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[675000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[685000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[695000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[705000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[715000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[725000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[735000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[745000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[755000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[765000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[775000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[785000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[795000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[805000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[815000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[825000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[835000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[845000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[855000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[865000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[875000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[885000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[895000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[905000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[915000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[925000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[935000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[945000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[955000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[965000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[975000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[985000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+[995000] IDLE state=0 mode_wacc=0 weight_valid=0 mode_vcalcu=0 nptr_valid=0
+INFO: xsimkernel Simulation Memory Usage: 479364 KB (Peak: 532536 KB), Simulation CPU Usage: 560 ms

@@ -1,0 +1,24 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../../rtl/classifier/argmax5.v" \
+"../../../../../../rtl/io/input_buffer.v" \
+"../../../../../../rtl/control/neuron_fsm.v" \
+"../../../../../../rtl/compute/neuron_ptr_gen.v" \
+"../../../../../../rtl/memory/neuron_state_sram.v" \
+"../../../../../../rtl/compute/npu.v" \
+"../../../../../../rtl/io/output_reader.v" \
+"../../../../../../rtl/top/snn_ecg_top.v" \
+"../../../../../../rtl/compute/spike_iterator.v" \
+"../../../../../../rtl/compute/spike_merge.v" \
+"../../../../../../rtl/memory/sram_1rw.v" \
+"../../../../../../rtl/control/top_fsm.v" \
+"../../../../../../rtl/io/uart_rx.v" \
+"../../../../../../rtl/io/uart_tx.v" \
+"../../../../../../rtl/memory/weight_decode.v" \
+"../../../../../../tb/tb_top.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

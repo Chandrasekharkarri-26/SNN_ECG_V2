@@ -1,0 +1,7 @@
+0.7
+2020.2
+Nov  8 2024
+22:36:55
+/home/23EC01021/Music/SNN_ECG_V2/rtl/compute/neuron_ptr_gen.v,1782931594,verilog,,/home/23EC01021/Music/SNN_ECG_V2/tb/tb_neuron_ptr_gen.v,,neuron_ptr_gen,,,,,,,,
+/home/23EC01021/Music/SNN_ECG_V2/sim/test_neuron_ptr_gen/test_neuron_ptr_gen.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,,,,,,,
+/home/23EC01021/Music/SNN_ECG_V2/tb/tb_neuron_ptr_gen.v,1782996919,verilog,,,,tb_neuron_ptr_gen,,,,,,,,

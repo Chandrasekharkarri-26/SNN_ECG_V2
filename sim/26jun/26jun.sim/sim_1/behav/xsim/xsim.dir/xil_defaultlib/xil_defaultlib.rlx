@@ -1,0 +1,21 @@
+0.7
+2020.2
+Nov  8 2024
+22:36:55
+/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/argmax5.v,1782411682,verilog,,/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/input_buffer.v,,argmax5,,,,,,,,
+/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/input_buffer.v,1781589187,verilog,,/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/neuron_fsm.v,,input_buffer,,,,,,,,
+/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/neuron_fsm.v,1782413530,verilog,,/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/neuron_ptr_gen.v,,neuron_fsm,,,,,,,,
+/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/neuron_ptr_gen.v,1782379736,verilog,,/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/neuron_state_sram.v,,neuron_ptr_gen,,,,,,,,
+/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/neuron_state_sram.v,1782384881,verilog,,/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/npu.v,,neuron_state_sram,,,,,,,,
+/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/npu.v,1782417240,verilog,,/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/output_reader.v,,npu,,,,,,,,
+/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/output_reader.v,1782383583,verilog,,/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/snn_ecg_top.v,,output_reader,,,,,,,,
+/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/snn_ecg_top.v,1782417818,verilog,,/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/spike_iterator.v,,snn_ecg_top,,,,,,,,
+/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/spike_iterator.v,1782414544,verilog,,/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/spike_merge.v,,spike_iterator,,,,,,,,
+/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/spike_merge.v,1782200568,verilog,,/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/sram_1rw.v,,spike_merge,,,,,,,,
+/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/sram_1rw.v,1782411877,verilog,,/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/top_fsm.v,,sram_1rw,,,,,,,,
+/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/tb_snn_ecg.v,1782411615,verilog,,,,tb_snn_ecg,,,,,,,,
+/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/top_fsm.v,1782417727,verilog,,/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/uart_rx.v,,top_fsm,,,,,,,,
+/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/uart_rx.v,1781625665,verilog,,/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/uart_tx.v,,uart_rx,,,,,,,,
+/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/uart_tx.v,1781589160,verilog,,/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/weight_decode.v,,uart_tx,,,,,,,,
+/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/weight_decode.v,1782415536,verilog,,/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/tb_snn_ecg.v,,weight_decode,,,,,,,,
+/home/23EC01021/Music/SNN_ECG_V2/sim/26jun/26jun.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,,,,,,,

@@ -1,0 +1,7 @@
+Time resolution is 1 ps
+[FAIL] WACC Positive Weight
+========================================
+Total: 7 | Passed: 4 | Failed: 3
+========================================
+$finish called at time : 260 ns : File "/home/23EC01021/Music/SNN_ECG_V2/tb/tb_neuron_fsm.v" Line 137
+INFO: xsimkernel Simulation Memory Usage: 479048 KB (Peak: 532220 KB), Simulation CPU Usage: 3340 ms

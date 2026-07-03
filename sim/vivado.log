@@ -3,8 +3,8 @@
 # SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
 # IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
 # SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
-# Start of session at: Thu Jul  2 15:19:47 2026
-# Process ID         : 309568
+# Start of session at: Thu Jul  2 22:49:55 2026
+# Process ID         : 392125
 # Current directory  : /home/23EC01021/Music/SNN_ECG_V2/sim
 # Command line       : vivado
 # Log file           : /home/23EC01021/Music/SNN_ECG_V2/sim/vivado.log
@@ -13,15 +13,16 @@
 # Platform           : unknown
 # Operating System   : unknown
 # Processor Detail   : Intel(R) Core(TM) i7-14700
-# CPU Frequency      : 800.316 MHz
+# CPU Frequency      : 4526.070 MHz
 # CPU Physical cores : 20
 # CPU Logical cores  : 28
 # Host memory        : 33107 MB
 # Swap memory        : 42949 MB
 # Total Virtual      : 76057 MB
-# Available Virtual  : 62551 MB
+# Available Virtual  : 64110 MB
 #-----------------------------------------------------------
 start_gui
+open_project /home/23EC01021/Music/SNN_ECG_V2/sim/jun21/jun21.xpr
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
@@ -29,565 +30,56 @@ WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
-create_project test_uart_tx /home/23EC01021/Music/SNN_ECG_V2/sim/test_uart_tx -part xc7vx485tffg1157-1
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory '/home/23EC01021/Music/SNN_ECG_V2/sim/jun21/jun21.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/Data/cad/Xilinx/Vivado/2024.2/data/ip'.
-add_files -norecurse {/home/23EC01021/Music/SNN_ECG_V2/rtl/io/uart_tx.v /home/23EC01021/Music/SNN_ECG_V2/tb/tb_uart_tx.v}
 update_compile_order -fileset sources_1
-update_compile_order -fileset sources_1
-move_files -fileset sim_1 [get_files  /home/23EC01021/Music/SNN_ECG_V2/tb/tb_uart_tx.v]
-update_compile_order -fileset sim_1
 launch_simulation
 Command: launch_simulation 
-INFO: [Vivado 12-12493] Simulation top is 'tb_uart_tx'
-INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/23EC01021/Music/SNN_ECG_V2/sim/test_uart_tx/test_uart_tx.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-12493] Simulation top is 'tb_snn_ecg'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/23EC01021/Music/SNN_ECG_V2/sim/jun21/jun21.sim/sim_1/behav/xsim'
 INFO: [SIM-utils-51] Simulation object is 'sim_1'
 INFO: [SIM-utils-72] Using boost library from '/Data/cad/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
-INFO: [SIM-utils-54] Inspecting design source files for 'tb_uart_tx' in fileset 'sim_1'...
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_snn_ecg' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported '/home/23EC01021/Music/SNN_ECG_V2/sim/jun21/jun21.sim/sim_1/behav/xsim/Weight_Connection.mem'
+INFO: [SIM-utils-43] Exported '/home/23EC01021/Music/SNN_ECG_V2/sim/jun21/jun21.sim/sim_1/behav/xsim/Neuron_State.mem'
+INFO: [SIM-utils-43] Exported '/home/23EC01021/Music/SNN_ECG_V2/sim/jun21/jun21.sim/sim_1/behav/xsim/Weight_Entrance.mem'
 INFO: [USF-XSim-97] Finding global include files...
 INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
 INFO: [USF-XSim-2] XSim::Compile design
-INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/23EC01021/Music/SNN_ECG_V2/sim/test_uart_tx/test_uart_tx.sim/sim_1/behav/xsim'
-xvlog --incr --relax -prj tb_uart_tx_vlog.prj
-INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/rtl/io/uart_tx.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module uart_tx
-INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/tb/tb_uart_tx.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module tb_uart_tx
-INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/sim/test_uart_tx/test_uart_tx.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module glbl
-Waiting for jobs to finish...
-No pending jobs, compilation finished.
-INFO: [USF-XSim-69] 'compile' step finished in '0' seconds
-INFO: [USF-XSim-3] XSim::Elaborate design
-INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/23EC01021/Music/SNN_ECG_V2/sim/test_uart_tx/test_uart_tx.sim/sim_1/behav/xsim'
-xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_uart_tx_behav xil_defaultlib.tb_uart_tx xil_defaultlib.glbl -log elaborate.log
-Vivado Simulator v2024.2.0
-Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
-Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
-Running: /Data/cad/Xilinx/Vivado/2024.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_uart_tx_behav xil_defaultlib.tb_uart_tx xil_defaultlib.glbl -log elaborate.log 
-Using 8 slave threads.
-Starting static elaboration
-Pass Through NonSizing Optimizer
-Completed static elaboration
-Starting simulation data flow analysis
-Completed simulation data flow analysis
-Time Resolution for simulation is 1ps
-Compiling module xil_defaultlib.uart_tx(BAUD=10000000)
-Compiling module xil_defaultlib.tb_uart_tx
-Compiling module xil_defaultlib.glbl
-Built simulation snapshot tb_uart_tx_behav
-INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
-INFO: [USF-XSim-4] XSim::Simulate design
-INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/23EC01021/Music/SNN_ECG_V2/sim/test_uart_tx/test_uart_tx.sim/sim_1/behav/xsim'
-INFO: [USF-XSim-98] *** Running xsim
-   with args "tb_uart_tx_behav -key {Behavioral:sim_1:Functional:tb_uart_tx} -tclbatch {tb_uart_tx.tcl} -log {simulate.log}"
-INFO: [USF-XSim-8] Loading simulator feature
-Time resolution is 1 ps
-source tb_uart_tx.tcl
-# set curr_wave [current_wave_config]
-# if { [string length $curr_wave] == 0 } {
-#   if { [llength [get_objects]] > 0} {
-#     add_wave /
-#     set_property needs_save false [current_wave_config]
-#   } else {
-#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
-#   }
-# }
-# run 1000ns
-INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_uart_tx_behav' loaded.
-INFO: [USF-XSim-97] XSim simulation ran for 1000ns
-run 10ms
-[1085000] [FAIL]        Start Bit | Exp: 0, Got: 1
-[1185000] [FAIL]               D0 | Exp: 0, Got: 1
-[1385000] [FAIL]               D2 | Exp: 0, Got: 1
-[1585000] [FAIL]               D4 | Exp: 0, Got: 1
-[1785000] [FAIL]               D6 | Exp: 0, Got: 1
-[FAIL]         Ignored send during busy: Second start bit detected
-[FAIL]         Ignored send during busy: Second start bit detected
-[FAIL]         Ignored send during busy: Second start bit detected
-[FAIL]         Ignored send during busy: Second start bit detected
-[FAIL]         Ignored send during busy: Second start bit detected
-[FAIL]         Ignored send during busy: Second start bit detected
-[FAIL]         Ignored send during busy: Second start bit detected
-[FAIL]         Ignored send during busy: Second start bit detected
-[FAIL]         Ignored send during busy: Second start bit detected
-[FAIL]         Ignored send during busy: Second start bit detected
-========================================
-Passed: 9 | Failed: 15
-========================================
-$finish called at time : 4470 ns : File "/home/23EC01021/Music/SNN_ECG_V2/tb/tb_uart_tx.v" Line 140
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
-close_sim
-INFO: xsimkernel Simulation Memory Usage: 474924 KB (Peak: 532196 KB), Simulation CPU Usage: 550 ms
-INFO: [Simtcl 6-16] Simulation closed
-close_project
-create_project test_output_reader /home/23EC01021/Music/SNN_ECG_V2/sim/test_output_reader -part xc7vx485tffg1157-1
-INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1704] No user IP repositories specified
-INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/Data/cad/Xilinx/Vivado/2024.2/data/ip'.
-add_files -norecurse /home/23EC01021/Music/SNN_ECG_V2/rtl/io/output_reader.v
-update_compile_order -fileset sources_1
-set_property SOURCE_SET sources_1 [get_filesets sim_1]
-add_files -fileset sim_1 -norecurse /home/23EC01021/Music/SNN_ECG_V2/tb/tb_output_reader.v
-update_compile_order -fileset sim_1
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/io/output_reader.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_output_reader.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/io/output_reader.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/io/output_reader.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/io/output_reader.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_output_reader.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_output_reader.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_output_reader.v:]
-update_compile_order -fileset sim_1
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/io/output_reader.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_output_reader.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_output_reader.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_output_reader.v:]
-launch_simulation
-Command: launch_simulation 
-INFO: [Vivado 12-12493] Simulation top is 'tb_output_reader'
-INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/23EC01021/Music/SNN_ECG_V2/sim/test_output_reader/test_output_reader.sim/sim_1/behav/xsim'
-INFO: [SIM-utils-51] Simulation object is 'sim_1'
-INFO: [SIM-utils-72] Using boost library from '/Data/cad/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
-INFO: [SIM-utils-54] Inspecting design source files for 'tb_output_reader' in fileset 'sim_1'...
-INFO: [USF-XSim-97] Finding global include files...
-INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
-INFO: [USF-XSim-2] XSim::Compile design
-INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/23EC01021/Music/SNN_ECG_V2/sim/test_output_reader/test_output_reader.sim/sim_1/behav/xsim'
-xvlog --incr --relax -prj tb_output_reader_vlog.prj
-INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/rtl/io/output_reader.v" into library xil_defaultlib
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/23EC01021/Music/SNN_ECG_V2/sim/jun21/jun21.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj tb_snn_ecg_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/argmax5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module argmax5
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/input_buffer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module input_buffer
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/neuron_fsm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module neuron_fsm
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/neuron_ptr_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module neuron_ptr_gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/neuron_state_sram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module neuron_state_sram
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/npu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module npu
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/output_reader.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module output_reader
-INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/tb/tb_output_reader.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module tb_output_reader
-INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/sim/test_output_reader/test_output_reader.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module glbl
-Waiting for jobs to finish...
-No pending jobs, compilation finished.
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/snn_ecg_top.v" into library xil_defaultlib
+ERROR: [VRFC 10-3195] cannot open include file '../common/snn_parameters.vh' [/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/snn_ecg_top.v:4]
+ERROR: [VRFC 10-3195] cannot open include file '../common/snn_states.vh' [/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/snn_ecg_top.v:5]
+ERROR: [VRFC 10-3195] cannot open include file '../common/snn_constants.vh' [/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/snn_ecg_top.v:6]
+INFO: [VRFC 10-311] analyzing module snn_ecg_top
+WARNING: [VRFC 10-2938] 'or_ns_addr' is already implicitly declared on line 206 [/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/snn_ecg_top.v:219]
+WARNING: [VRFC 10-2938] 'or_ns_ce' is already implicitly declared on line 207 [/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/snn_ecg_top.v:220]
+WARNING: [VRFC 10-2938] 'ns_rdata_shared' is already implicitly declared on line 208 [/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/snn_ecg_top.v:221]
+WARNING: [VRFC 10-2938] 'or_valid' is already implicitly declared on line 113 [/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/snn_ecg_top.v:223]
+ERROR: [VRFC 10-8530] module 'snn_ecg_top' is ignored due to previous errors [/home/23EC01021/Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/snn_ecg_top.v:40]
 INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
-INFO: [USF-XSim-3] XSim::Elaborate design
-INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/23EC01021/Music/SNN_ECG_V2/sim/test_output_reader/test_output_reader.sim/sim_1/behav/xsim'
-xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_output_reader_behav xil_defaultlib.tb_output_reader xil_defaultlib.glbl -log elaborate.log
-Vivado Simulator v2024.2.0
-Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
-Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
-Running: /Data/cad/Xilinx/Vivado/2024.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_output_reader_behav xil_defaultlib.tb_output_reader xil_defaultlib.glbl -log elaborate.log 
-Using 8 slave threads.
-Starting static elaboration
-Pass Through NonSizing Optimizer
-Completed static elaboration
-Starting simulation data flow analysis
-Completed simulation data flow analysis
-Time Resolution for simulation is 1ps
-Compiling module xil_defaultlib.output_reader
-Compiling module xil_defaultlib.tb_output_reader
-Compiling module xil_defaultlib.glbl
-Built simulation snapshot tb_output_reader_behav
-INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
-INFO: [USF-XSim-4] XSim::Simulate design
-INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/23EC01021/Music/SNN_ECG_V2/sim/test_output_reader/test_output_reader.sim/sim_1/behav/xsim'
-INFO: [USF-XSim-98] *** Running xsim
-   with args "tb_output_reader_behav -key {Behavioral:sim_1:Functional:tb_output_reader} -tclbatch {tb_output_reader.tcl} -log {simulate.log}"
-INFO: [USF-XSim-8] Loading simulator feature
-Time resolution is 1 ps
-source tb_output_reader.tcl
-# set curr_wave [current_wave_config]
-# if { [string length $curr_wave] == 0 } {
-#   if { [llength [get_objects]] > 0} {
-#     add_wave /
-#     set_property needs_save false [current_wave_config]
-#   } else {
-#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
-#   }
-# }
-# run 1000ns
-[135000] [PASS]             Normal Read Sequence
-Summary: Passed 3, Failed 0
-$finish called at time : 295 ns : File "/home/23EC01021/Music/SNN_ECG_V2/tb/tb_output_reader.v" Line 98
-INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_output_reader_behav' loaded.
-INFO: [USF-XSim-97] XSim simulation ran for 1000ns
-run 10ms
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
-close_sim
-INFO: xsimkernel Simulation Memory Usage: 474928 KB (Peak: 532200 KB), Simulation CPU Usage: 2010 ms
-INFO: [Simtcl 6-16] Simulation closed
-close_project
-create_project test_spike_iterator /home/23EC01021/Music/SNN_ECG_V2/sim/test_spike_iterator -part xc7vx485tffg1157-1
-INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1704] No user IP repositories specified
-INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/Data/cad/Xilinx/Vivado/2024.2/data/ip'.
-add_files -norecurse /home/23EC01021/Music/SNN_ECG_V2/rtl/compute/spike_iterator.v
-update_compile_order -fileset sources_1
-set_property SOURCE_SET sources_1 [get_filesets sim_1]
-add_files -fileset sim_1 -norecurse /home/23EC01021/Music/SNN_ECG_V2/tb/tb_spike_iterator.v
-update_compile_order -fileset sim_1
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/compute/spike_iterator.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_spike_iterator.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_spike_iterator.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_spike_iterator.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/compute/spike_iterator.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_spike_iterator.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_spike_iterator.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_spike_iterator.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/compute/spike_iterator.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_spike_iterator.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_spike_iterator.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_spike_iterator.v:]
-update_compile_order -fileset sim_1
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/compute/spike_iterator.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_spike_iterator.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_spike_iterator.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_spike_iterator.v:]
-launch_simulation
-Command: launch_simulation 
-INFO: [Vivado 12-12493] Simulation top is 'tb_spike_iterator'
-INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/23EC01021/Music/SNN_ECG_V2/sim/test_spike_iterator/test_spike_iterator.sim/sim_1/behav/xsim'
-INFO: [SIM-utils-51] Simulation object is 'sim_1'
-INFO: [SIM-utils-72] Using boost library from '/Data/cad/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
-INFO: [SIM-utils-54] Inspecting design source files for 'tb_spike_iterator' in fileset 'sim_1'...
-INFO: [USF-XSim-97] Finding global include files...
-INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
-INFO: [USF-XSim-2] XSim::Compile design
-INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/23EC01021/Music/SNN_ECG_V2/sim/test_spike_iterator/test_spike_iterator.sim/sim_1/behav/xsim'
-xvlog --incr --relax -prj tb_spike_iterator_vlog.prj
-INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/rtl/compute/spike_iterator.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module spike_iterator
-INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/tb/tb_spike_iterator.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module tb_spike_iterator
-INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/sim/test_spike_iterator/test_spike_iterator.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module glbl
-Waiting for jobs to finish...
-No pending jobs, compilation finished.
-INFO: [USF-XSim-69] 'compile' step finished in '0' seconds
-INFO: [USF-XSim-3] XSim::Elaborate design
-INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/23EC01021/Music/SNN_ECG_V2/sim/test_spike_iterator/test_spike_iterator.sim/sim_1/behav/xsim'
-xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_spike_iterator_behav xil_defaultlib.tb_spike_iterator xil_defaultlib.glbl -log elaborate.log
-Vivado Simulator v2024.2.0
-Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
-Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
-Running: /Data/cad/Xilinx/Vivado/2024.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_spike_iterator_behav xil_defaultlib.tb_spike_iterator xil_defaultlib.glbl -log elaborate.log 
-Using 8 slave threads.
-Starting static elaboration
-Pass Through NonSizing Optimizer
-Completed static elaboration
-Starting simulation data flow analysis
-Completed simulation data flow analysis
-Time Resolution for simulation is 1ps
-Compiling module xil_defaultlib.spike_iterator
-Compiling module xil_defaultlib.tb_spike_iterator
-Compiling module xil_defaultlib.glbl
-Built simulation snapshot tb_spike_iterator_behav
-INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
-INFO: [USF-XSim-4] XSim::Simulate design
-INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/23EC01021/Music/SNN_ECG_V2/sim/test_spike_iterator/test_spike_iterator.sim/sim_1/behav/xsim'
-INFO: [USF-XSim-98] *** Running xsim
-   with args "tb_spike_iterator_behav -key {Behavioral:sim_1:Functional:tb_spike_iterator} -tclbatch {tb_spike_iterator.tcl} -log {simulate.log}"
-INFO: [USF-XSim-8] Loading simulator feature
-Time resolution is 1 ps
-source tb_spike_iterator.tcl
-# set curr_wave [current_wave_config]
-# if { [string length $curr_wave] == 0 } {
-#   if { [llength [get_objects]] > 0} {
-#     add_wave /
-#     set_property needs_save false [current_wave_config]
-#   } else {
-#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
-#   }
-# }
-# run 1000ns
-[PASS] Test 1: Reset cleared all outputs correctly.
-INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_spike_iterator_behav' loaded.
-INFO: [USF-XSim-97] XSim simulation ran for 1000ns
-run 10ms
-[PASS] Test 2: Scan verified successfully.
-[PASS] Test 3: Scan verified successfully.
-[PASS] Test 4: Scan verified successfully.
-[PASS] Test 5: Scan verified successfully.
-[PASS] Test 6: Scan verified successfully.
-[PASS] Test 7: Scan verified successfully.
-[PASS] Test 8: Scan verified successfully.
-========================================
-PASSED : 8
-FAILED : 0
-========================================
-$finish called at time : 71960 ns : File "/home/23EC01021/Music/SNN_ECG_V2/tb/tb_spike_iterator.v" Line 266
-close_sim
-INFO: xsimkernel Simulation Memory Usage: 474936 KB (Peak: 532208 KB), Simulation CPU Usage: 560 ms
-INFO: [Simtcl 6-16] Simulation closed
-launch_simulation
-Command: launch_simulation 
-INFO: [Vivado 12-12493] Simulation top is 'tb_spike_iterator'
-INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/23EC01021/Music/SNN_ECG_V2/sim/test_spike_iterator/test_spike_iterator.sim/sim_1/behav/xsim'
-INFO: [SIM-utils-51] Simulation object is 'sim_1'
-INFO: [SIM-utils-72] Using boost library from '/Data/cad/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
-INFO: [SIM-utils-54] Inspecting design source files for 'tb_spike_iterator' in fileset 'sim_1'...
-INFO: [USF-XSim-97] Finding global include files...
-INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
-INFO: [USF-XSim-2] XSim::Compile design
-INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/23EC01021/Music/SNN_ECG_V2/sim/test_spike_iterator/test_spike_iterator.sim/sim_1/behav/xsim'
-xvlog --incr --relax -prj tb_spike_iterator_vlog.prj
-Waiting for jobs to finish...
-No pending jobs, compilation finished.
-INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
-INFO: [USF-XSim-3] XSim::Elaborate design
-INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/23EC01021/Music/SNN_ECG_V2/sim/test_spike_iterator/test_spike_iterator.sim/sim_1/behav/xsim'
-xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_spike_iterator_behav xil_defaultlib.tb_spike_iterator xil_defaultlib.glbl -log elaborate.log
-Vivado Simulator v2024.2.0
-Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
-Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
-Running: /Data/cad/Xilinx/Vivado/2024.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_spike_iterator_behav xil_defaultlib.tb_spike_iterator xil_defaultlib.glbl -log elaborate.log 
-Using 8 slave threads.
-Starting static elaboration
-Pass Through NonSizing Optimizer
-Completed static elaboration
-INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
-INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
-INFO: [USF-XSim-4] XSim::Simulate design
-INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/23EC01021/Music/SNN_ECG_V2/sim/test_spike_iterator/test_spike_iterator.sim/sim_1/behav/xsim'
-INFO: [USF-XSim-98] *** Running xsim
-   with args "tb_spike_iterator_behav -key {Behavioral:sim_1:Functional:tb_spike_iterator} -tclbatch {tb_spike_iterator.tcl} -log {simulate.log}"
-INFO: [USF-XSim-8] Loading simulator feature
-Time resolution is 1 ps
-source tb_spike_iterator.tcl
-# set curr_wave [current_wave_config]
-# if { [string length $curr_wave] == 0 } {
-#   if { [llength [get_objects]] > 0} {
-#     add_wave /
-#     set_property needs_save false [current_wave_config]
-#   } else {
-#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
-#   }
-# }
-# run 1000ns
-[PASS] Test 1: Reset cleared all outputs correctly.
-INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_spike_iterator_behav' loaded.
-INFO: [USF-XSim-97] XSim simulation ran for 1000ns
-run 10ms
-[PASS] Test 2: Scan verified successfully.
-[PASS] Test 3: Scan verified successfully.
-[PASS] Test 4: Scan verified successfully.
-[PASS] Test 5: Scan verified successfully.
-[PASS] Test 6: Scan verified successfully.
-[PASS] Test 7: Scan verified successfully.
-[PASS] Test 8: Scan verified successfully.
-========================================
-PASSED : 8
-FAILED : 0
-========================================
-$finish called at time : 71960 ns : File "/home/23EC01021/Music/SNN_ECG_V2/tb/tb_spike_iterator.v" Line 266
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
-close_sim
-INFO: xsimkernel Simulation Memory Usage: 474936 KB (Peak: 532208 KB), Simulation CPU Usage: 580 ms
-INFO: [Simtcl 6-16] Simulation closed
-close_project
-create_project test_spike_merge /home/23EC01021/Music/SNN_ECG_V2/sim/test_spike_merge -part xc7vx485tffg1157-1
-INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1704] No user IP repositories specified
-INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/Data/cad/Xilinx/Vivado/2024.2/data/ip'.
-add_files -norecurse /home/23EC01021/Music/SNN_ECG_V2/rtl/compute/spike_merge.v
-update_compile_order -fileset sources_1
-set_property SOURCE_SET sources_1 [get_filesets sim_1]
-add_files -fileset sim_1 -norecurse /home/23EC01021/Music/SNN_ECG_V2/tb/tb_spike_merge.v
-update_compile_order -fileset sim_1
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_spike_merge.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/compute/spike_merge.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_spike_merge.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_spike_merge.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_spike_merge.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/compute/spike_merge.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/compute/spike_merge.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/compute/spike_merge.v:]
-update_compile_order -fileset sim_1
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_spike_merge.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/rtl/compute/spike_merge.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_spike_merge.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/23EC01021/Music/SNN_ECG_V2/tb/tb_spike_merge.v:]
-launch_simulation
-Command: launch_simulation 
-INFO: [Vivado 12-12493] Simulation top is 'tb_spike_merge'
-INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/23EC01021/Music/SNN_ECG_V2/sim/test_spike_merge/test_spike_merge.sim/sim_1/behav/xsim'
-INFO: [SIM-utils-51] Simulation object is 'sim_1'
-INFO: [SIM-utils-72] Using boost library from '/Data/cad/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
-INFO: [SIM-utils-54] Inspecting design source files for 'tb_spike_merge' in fileset 'sim_1'...
-INFO: [USF-XSim-97] Finding global include files...
-INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
-INFO: [USF-XSim-2] XSim::Compile design
-INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/23EC01021/Music/SNN_ECG_V2/sim/test_spike_merge/test_spike_merge.sim/sim_1/behav/xsim'
-xvlog --incr --relax -prj tb_spike_merge_vlog.prj
-INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/rtl/compute/spike_merge.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module spike_merge
-INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/tb/tb_spike_merge.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module tb_spike_merge
-INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/sim/test_spike_merge/test_spike_merge.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module glbl
-Waiting for jobs to finish...
-No pending jobs, compilation finished.
-INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
-INFO: [USF-XSim-3] XSim::Elaborate design
-INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/23EC01021/Music/SNN_ECG_V2/sim/test_spike_merge/test_spike_merge.sim/sim_1/behav/xsim'
-xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_spike_merge_behav xil_defaultlib.tb_spike_merge xil_defaultlib.glbl -log elaborate.log
-Vivado Simulator v2024.2.0
-Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
-Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
-Running: /Data/cad/Xilinx/Vivado/2024.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_spike_merge_behav xil_defaultlib.tb_spike_merge xil_defaultlib.glbl -log elaborate.log 
-Using 8 slave threads.
-Starting static elaboration
-Pass Through NonSizing Optimizer
-Completed static elaboration
-Starting simulation data flow analysis
-Completed simulation data flow analysis
-Time Resolution for simulation is 1ps
-Compiling module xil_defaultlib.spike_merge_default
-Compiling module xil_defaultlib.tb_spike_merge
-Compiling module xil_defaultlib.glbl
-Built simulation snapshot tb_spike_merge_behav
-INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
-INFO: [USF-XSim-4] XSim::Simulate design
-INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/23EC01021/Music/SNN_ECG_V2/sim/test_spike_merge/test_spike_merge.sim/sim_1/behav/xsim'
-INFO: [USF-XSim-98] *** Running xsim
-   with args "tb_spike_merge_behav -key {Behavioral:sim_1:Functional:tb_spike_merge} -tclbatch {tb_spike_merge.tcl} -log {simulate.log}"
-INFO: [USF-XSim-8] Loading simulator feature
-Time resolution is 1 ps
-source tb_spike_merge.tcl
-# set curr_wave [current_wave_config]
-# if { [string length $curr_wave] == 0 } {
-#   if { [llength [get_objects]] > 0} {
-#     add_wave /
-#     set_property needs_save false [current_wave_config]
-#   } else {
-#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
-#   }
-# }
-# run 1000ns
-========================================
-Starting Self-Checking Verification...
-========================================
-[PASS] Test 1: State match.
-[PASS] Test 2: State match.
-[PASS] Test 2: State match.
-[PASS] Test 3: State match.
-[PASS] Test 3: State match.
-[PASS] Test 4: State match.
-[PASS] Test 4: State match.
-[PASS] Test 4: State match.
-[PASS] Test 5: State match.
-[PASS] Test 6: State match.
-[PASS] Test 6: State match.
-[PASS] Test 6: State match.
-[PASS] Test 6: State match.
-[PASS] Test 6: State match.
-[PASS] Test 7: State match.
-[PASS] Test 8: State match.
-[PASS] Test 9: State match.
-========================================
-PASSED : 17
-FAILED : 0
-========================================
-$finish called at time : 350 ns : File "/home/23EC01021/Music/SNN_ECG_V2/tb/tb_spike_merge.v" Line 312
-INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_spike_merge_behav' loaded.
-INFO: [USF-XSim-97] XSim simulation ran for 1000ns
-run 10ms
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /Data/cad/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
-close_sim
-INFO: xsimkernel Simulation Memory Usage: 474944 KB (Peak: 532216 KB), Simulation CPU Usage: 2130 ms
-INFO: [Simtcl 6-16] Simulation closed
-close_project
-create_project test_neuron_ptr_gen /home/23EC01021/Music/SNN_ECG_V2/sim/test_neuron_ptr_gen -part xc7vx485tffg1157-1
-INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1704] No user IP repositories specified
-INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/Data/cad/Xilinx/Vivado/2024.2/data/ip'.
-add_files -norecurse /home/23EC01021/Music/SNN_ECG_V2/rtl/compute/neuron_ptr_gen.v
-update_compile_order -fileset sources_1
+INFO: [USF-XSim-99] Step results log file:'/home/23EC01021/Music/SNN_ECG_V2/sim/jun21/jun21.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or '/home/23EC01021/Music/SNN_ECG_V2/sim/jun21/jun21.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
 exit
-INFO: [Common 17-206] Exiting Vivado at Thu Jul  2 18:10:14 2026...
+INFO: [Common 17-206] Exiting Vivado at Thu Jul  2 22:53:15 2026...

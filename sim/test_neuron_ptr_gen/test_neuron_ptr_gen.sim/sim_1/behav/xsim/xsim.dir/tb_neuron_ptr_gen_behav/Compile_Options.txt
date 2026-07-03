@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "8" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "tb_neuron_ptr_gen_behav" "xil_defaultlib.tb_neuron_ptr_gen" "xil_defaultlib.glbl" -log "elaborate.log" 

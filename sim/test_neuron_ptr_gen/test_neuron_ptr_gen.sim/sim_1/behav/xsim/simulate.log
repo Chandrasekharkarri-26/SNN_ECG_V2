@@ -1,0 +1,11 @@
+Time resolution is 1 ps
+========================================
+Starting Self-Checking Verification...
+========================================
+========================================
+VERIFICATION SUCCESSFUL
+PASSED : 29
+FAILED : 0
+========================================
+$finish called at time : 510 ns : File "/home/23EC01021/Music/SNN_ECG_V2/tb/tb_neuron_ptr_gen.v" Line 283
+INFO: xsimkernel Simulation Memory Usage: 474932 KB (Peak: 532204 KB), Simulation CPU Usage: 2040 ms

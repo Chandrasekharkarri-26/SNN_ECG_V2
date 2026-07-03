@@ -1,0 +1,31 @@
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /Data/cad/Xilinx/Vivado/2024.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_snn_ecg_top_behav xil_defaultlib.tb_snn_ecg_top xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.uart_rx_default
+Compiling module xil_defaultlib.input_buffer
+Compiling module xil_defaultlib.top_fsm
+Compiling module xil_defaultlib.spike_merge_default
+Compiling module xil_defaultlib.spike_iterator
+Compiling module xil_defaultlib.sram_1rw(DATA_WIDTH=25,INIT_FILE...
+Compiling module xil_defaultlib.sram_1rw(ADDR_WIDTH=15,INIT_FILE...
+Compiling module xil_defaultlib.weight_decode_default
+Compiling module xil_defaultlib.sram_1rw(DATA_WIDTH=15,INIT_FILE...
+Compiling module xil_defaultlib.neuron_state_sram
+Compiling module xil_defaultlib.neuron_ptr_gen
+Compiling module xil_defaultlib.neuron_fsm_default
+Compiling module xil_defaultlib.npu_default
+Compiling module xil_defaultlib.output_reader
+Compiling module xil_defaultlib.argmax5
+Compiling module xil_defaultlib.uart_tx_default
+Compiling module xil_defaultlib.snn_ecg_top
+Compiling module xil_defaultlib.tb_snn_ecg_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_snn_ecg_top_behav

@@ -1,0 +1,65 @@
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /Data/cad/Xilinx/Vivado/2024.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_snn_ecg_behav xil_defaultlib.tb_snn_ecg xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/snn_ecg_top.v" Line 1. Module snn_ecg_top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/uart_rx.v" Line 1. Module uart_rx_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/input_buffer.v" Line 7. Module input_buffer doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/top_fsm.v" Line 1. Module top_fsm doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/spike_merge.v" Line 10. Module spike_merge doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/spike_iterator.v" Line 1. Module spike_iterator doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/weight_decode.v" Line 1. Module weight_decode_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/sram_1rw.v" Line 12. Module sram_1rw(DATA_WIDTH=25,INIT_FILE="Weight_Entrance.mem") doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/sram_1rw.v" Line 12. Module sram_1rw(DATA_WIDTH=16,ADDR_WIDTH=15,INIT_FILE="Weight_Connection.mem") doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/npu.v" Line 1. Module npu doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/neuron_state_sram.v" Line 6. Module neuron_state_sram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/sram_1rw.v" Line 12. Module sram_1rw(INIT_FILE="Neuron_State.mem") doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/neuron_ptr_gen.v" Line 1. Module neuron_ptr_gen doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/neuron_fsm.v" Line 1. Module neuron_fsm doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/output_reader.v" Line 1. Module output_reader doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/argmax5.v" Line 7. Module argmax5 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/uart_tx.v" Line 1. Module uart_tx_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/snn_ecg_top.v" Line 1. Module snn_ecg_top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/uart_rx.v" Line 1. Module uart_rx_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/input_buffer.v" Line 7. Module input_buffer doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/top_fsm.v" Line 1. Module top_fsm doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/spike_merge.v" Line 10. Module spike_merge doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/spike_iterator.v" Line 1. Module spike_iterator doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/weight_decode.v" Line 1. Module weight_decode_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/sram_1rw.v" Line 12. Module sram_1rw(DATA_WIDTH=25,INIT_FILE="Weight_Entrance.mem") doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/sram_1rw.v" Line 12. Module sram_1rw(DATA_WIDTH=16,ADDR_WIDTH=15,INIT_FILE="Weight_Connection.mem") doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/npu.v" Line 1. Module npu doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/neuron_state_sram.v" Line 6. Module neuron_state_sram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/sram_1rw.v" Line 12. Module sram_1rw(INIT_FILE="Neuron_State.mem") doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/neuron_ptr_gen.v" Line 1. Module neuron_ptr_gen doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/neuron_fsm.v" Line 1. Module neuron_fsm doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/output_reader.v" Line 1. Module output_reader doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/argmax5.v" Line 7. Module argmax5 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/23EC01021/Documents/snn/r1/snn_rtl_complete26jun/snn_rtl_complete/uart_tx.v" Line 1. Module uart_tx_default doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.uart_rx_default
+Compiling module xil_defaultlib.input_buffer
+Compiling module xil_defaultlib.top_fsm
+Compiling module xil_defaultlib.spike_merge
+Compiling module xil_defaultlib.spike_iterator
+Compiling module xil_defaultlib.sram_1rw(DATA_WIDTH=25,INIT_FILE...
+Compiling module xil_defaultlib.sram_1rw(DATA_WIDTH=16,ADDR_WIDT...
+Compiling module xil_defaultlib.weight_decode_default
+Compiling module xil_defaultlib.sram_1rw(INIT_FILE="Neuron_State...
+Compiling module xil_defaultlib.neuron_state_sram
+Compiling module xil_defaultlib.neuron_ptr_gen
+Compiling module xil_defaultlib.neuron_fsm
+Compiling module xil_defaultlib.npu
+Compiling module xil_defaultlib.output_reader
+Compiling module xil_defaultlib.argmax5
+Compiling module xil_defaultlib.uart_tx_default
+Compiling module xil_defaultlib.snn_ecg_top
+Compiling module xil_defaultlib.tb_snn_ecg
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_snn_ecg_behav

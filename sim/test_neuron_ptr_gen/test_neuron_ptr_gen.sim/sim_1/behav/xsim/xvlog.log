@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/rtl/compute/neuron_ptr_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module neuron_ptr_gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/tb/tb_neuron_ptr_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_neuron_ptr_gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/23EC01021/Music/SNN_ECG_V2/sim/test_neuron_ptr_gen/test_neuron_ptr_gen.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

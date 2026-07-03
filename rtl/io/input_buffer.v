@@ -23,7 +23,7 @@ module input_buffer (
     output reg  [1:0]  time_step    // 0, 1, or 2
 );
 
-    localparam BYTES_PER_WORD = 4'd11; // 0 to 11 = 12 bytes
+    localparam BYTES_PER_WORD = 4'd12; 
     localparam MAX_TIME_STEPS = 2'd2;  // 0 to 2 = 3 steps
 
     reg [95:0] shift_reg;
@@ -48,7 +48,7 @@ module input_buffer (
                 // Shift in new byte (First byte ends up at LSB, last at MSB)
                 shift_reg <= {byte_in, shift_reg[95:8]};
 
-                if (byte_cnt == BYTES_PER_WORD) begin
+                if (byte_cnt == BYTES_PER_WORD-1) begin
                     // 96 bits assembled. Output immediately using look-ahead logic.
                     spike_word  <= {byte_in, shift_reg[95:8]};
                     spike_valid <= 1'b1;

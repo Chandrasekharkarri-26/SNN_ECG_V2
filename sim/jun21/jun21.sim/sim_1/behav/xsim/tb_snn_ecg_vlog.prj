@@ -1,0 +1,24 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../../../../Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/argmax5.v" \
+"../../../../../../../../Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/input_buffer.v" \
+"../../../../../../../../Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/neuron_fsm.v" \
+"../../../../../../../../Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/neuron_ptr_gen.v" \
+"../../../../../../../../Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/neuron_state_sram.v" \
+"../../../../../../../../Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/npu.v" \
+"../../../../../../../../Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/output_reader.v" \
+"../../../../../../../../Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/snn_ecg_top.v" \
+"../../../../../../../../Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/spike_iterator.v" \
+"../../../../../../../../Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/spike_merge.v" \
+"../../../../../../../../Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/sram_1rw.v" \
+"../../../../../../../../Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/top_fsm.v" \
+"../../../../../../../../Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/uart_rx.v" \
+"../../../../../../../../Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/uart_tx.v" \
+"../../../../../../../../Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/weight_decode.v" \
+"../../../../../../../../Documents/snn/r1/snn_rtl_complete21/snn_rtl_complete/tb_snn_ecg.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

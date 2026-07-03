@@ -1,0 +1,1395 @@
+$date
+   Thu Jul  2 22:47:00 2026
+$end
+
+$version
+  2024.2.0
+  $dumpfile ("snn_ecg_waves.vcd") 
+$end
+
+$timescale
+  1ps
+$end
+
+$scope module tb_snn_ecg $end
+$var reg 1 ! clk $end
+$var reg 1 " rst_n $end
+$var reg 1 # uart_rx_tb $end
+$var wire 1 $ uart_tx_dut $end
+$var wire 3 % class_out [2:0] $end
+$var wire 1 & class_valid $end
+$var integer 32 ' correct [31:0] $end
+$var integer 32 ( total [31:0] $end
+$var integer 32 ) beat [31:0] $end
+$var integer 32 * ts [31:0] $end
+$var integer 32 + timeout [31:0] $end
+$var integer 32 , rx_beat [31:0] $end
+$var reg 1 - class_valid_d $end
+$var wire 1 . class_valid_rise $end
+$scope module dut $end
+$var wire 1 / clk $end
+$var wire 1 0 rst_n $end
+$var wire 1 1 uart_rx $end
+$var wire 1 $ uart_tx $end
+$var wire 3 % class_out [2:0] $end
+$var wire 1 & class_valid $end
+$var wire 8 2 uart_byte [7:0] $end
+$var wire 1 3 uart_byte_valid $end
+$var wire 96 4 ext_spike_word [95:0] $end
+$var wire 1 5 ext_spike_valid $end
+$var wire 2 6 ext_time_step [1:0] $end
+$var wire 1 7 beat_start $end
+$var wire 1 8 mode_wacc $end
+$var wire 1 9 mode_vcalcu $end
+$var wire 1 : mode_output $end
+$var wire 1 ; spike_merge_clear $end
+$var wire 1 < iter_start_pulse $end
+$var wire 2 = fsm_ts [1:0] $end
+$var wire 1 > all_spikes_done $end
+$var wire 1 ? all_neurons_done $end
+$var wire 1024 @ merged_spikes [1023:0] $end
+$var wire 1024 A npu_spike_bus [1023:0] $end
+$var wire 1 B merged_valid $end
+$var wire 10 C iter_neuron_id [9:0] $end
+$var wire 1 D iter_valid $end
+$var wire 6 E wd_weight [5:0] $end
+$var wire 10 F wd_dst_id [9:0] $end
+$var wire 1 G wd_valid $end
+$var wire 1 H wd_last $end
+$var wire 1 I wd_ready $end
+$var wire 1 J wacc_done $end
+$var wire 1 K vcalcu_done $end
+$var wire 10 L or_ns_addr [9:0] $end
+$var wire 1 M or_ns_ce $end
+$var wire 15 N or_ns_rdata [14:0] $end
+$var wire 8 O v_out0 [7:0] $end
+$var wire 8 P v_out1 [7:0] $end
+$var wire 8 Q v_out2 [7:0] $end
+$var wire 8 R v_out3 [7:0] $end
+$var wire 8 S v_out4 [7:0] $end
+$var wire 1 T or_valid $end
+$var wire 1 U unused $end
+$scope module u_urx $end
+$var wire 1 / clk $end
+$var wire 1 0 rst_n $end
+$var wire 1 1 rx $end
+$var reg 8 V data_out [7:0] $end
+$var reg 1 W data_valid $end
+$var reg 20 X baud_cnt [19:0] $end
+$var reg 4 Y bit_cnt [3:0] $end
+$var reg 8 Z shift [7:0] $end
+$var reg 1 [ active $end
+$var reg 1 \ rx_s0 $end
+$var reg 1 ] rx_s1 $end
+$upscope $end
+$scope module u_ibuf $end
+$var wire 1 / clk $end
+$var wire 1 0 rst_n $end
+$var wire 8 2 byte_in [7:0] $end
+$var wire 1 3 byte_valid $end
+$var reg 96 ^ spike_word [95:0] $end
+$var reg 1 _ spike_valid $end
+$var reg 2 ` time_step [1:0] $end
+$var reg 96 a shift_reg [95:0] $end
+$var reg 4 b byte_cnt [3:0] $end
+$var reg 2 c ts_cnt [1:0] $end
+$upscope $end
+$scope module u_tfsm $end
+$var wire 1 d or_valid $end
+$var wire 1 / clk $end
+$var wire 1 0 rst_n $end
+$var wire 1 7 beat_start $end
+$var wire 1 > all_spikes_done $end
+$var wire 1 ? all_neurons_done $end
+$var reg 1 e mode_wacc $end
+$var wire 1 H out_last $end
+$var reg 1 f mode_vcalcu $end
+$var reg 1 g mode_output $end
+$var reg 1 h spike_merge_clear $end
+$var reg 1 i iter_start $end
+$var reg 2 j time_step_reg [1:0] $end
+$var reg 3 k state [2:0] $end
+$var reg 2 l ts [1:0] $end
+$upscope $end
+$scope module u_smerge $end
+$var wire 1 / clk $end
+$var wire 1 0 rst_n $end
+$var wire 96 4 ext_spike_word [95:0] $end
+$var wire 1 5 ext_spike_valid $end
+$var wire 1024 A int_spike_bus [1023:0] $end
+$var wire 1 9 int_spike_valid $end
+$var reg 1024 m merged_spikes [1023:0] $end
+$var reg 1 n merged_valid $end
+$var wire 1 ; clear $end
+$var reg 96 o ext_reg [95:0] $end
+$var reg 1024 p int_reg [1023:0] $end
+$upscope $end
+$scope module u_siter $end
+$var wire 1 / clk $end
+$var wire 1 0 rst_n $end
+$var wire 1024 @ spike_bus [1023:0] $end
+$var wire 1 < start $end
+$var reg 10 q neuron_id [9:0] $end
+$var reg 1 r valid $end
+$var reg 1 s done $end
+$var reg 10 t ptr [9:0] $end
+$var reg 1 u active $end
+$var reg 1024 v snap [1023:0] $end
+$upscope $end
+$scope module u_wdec $end
+$var wire 1 / clk $end
+$var wire 1 0 rst_n $end
+$var wire 1 J wacc_done $end
+$var wire 10 C req_neuron_id [9:0] $end
+$var wire 1 D req_valid $end
+$var reg 6 w out_weight [5:0] $end
+$var reg 10 x out_dst_id [9:0] $end
+$var reg 1 y out_valid $end
+$var reg 1 z out_last $end
+$var wire 1 I ready $end
+$var reg 10 { we_addr [9:0] $end
+$var reg 1 | we_ce $end
+$var reg 1 } we_we $end
+$var wire 25 ~ we_rdata [24:0] $end
+$var reg 15 !! wc_addr [14:0] $end
+$var reg 1 "! wc_ce $end
+$var reg 1 #! wc_we $end
+$var wire 16 $! wc_rdata [15:0] $end
+$var reg 3 %! state [2:0] $end
+$var reg 15 &! base_addr [14:0] $end
+$var reg 10 '! cnt_rem [9:0] $end
+$var reg 1 (! is_ready $end
+$scope module u_went $end
+$var wire 1 / clk $end
+$var wire 1 )! ce $end
+$var wire 1 *! we $end
+$var wire 10 +! addr [9:0] $end
+$var wire 25 ,! wdata [24:0] $end
+$var reg 25 -! rdata [24:0] $end
+$var integer 32 .! idx [31:0] $end
+$upscope $end
+$scope module u_wcon $end
+$var wire 1 / clk $end
+$var wire 1 /! ce $end
+$var wire 1 0! we $end
+$var wire 15 1! addr [14:0] $end
+$var wire 16 2! wdata [15:0] $end
+$var reg 16 3! rdata [15:0] $end
+$var integer 32 4! idx [31:0] $end
+$upscope $end
+$upscope $end
+$scope module u_npu $end
+$var wire 1 / clk $end
+$var wire 1 0 rst_n $end
+$var wire 1 8 mode_wacc $end
+$var wire 1 9 mode_vcalcu $end
+$var wire 1 : mode_output $end
+$var wire 6 E weight_in [5:0] $end
+$var wire 10 F dst_id [9:0] $end
+$var wire 1 G weight_valid $end
+$var wire 8 5! v_threshold [7:0] $end
+$var wire 1 ; spike_clear $end
+$var wire 1024 A spike_bus [1023:0] $end
+$var wire 1 J wacc_done $end
+$var wire 1 K vcalcu_done $end
+$var wire 1 ? all_neurons_done $end
+$var wire 10 L or_ns_addr [9:0] $end
+$var wire 1 M or_ns_ce $end
+$var wire 15 N or_ns_rdata [14:0] $end
+$var wire 10 6! nfsm_ns_addr [9:0] $end
+$var wire 1 7! nfsm_ns_ce $end
+$var wire 1 8! nfsm_ns_we $end
+$var wire 15 9! nfsm_ns_wdata [14:0] $end
+$var wire 15 :! ns_rdata [14:0] $end
+$var wire 10 ;! ns_addr_mux [9:0] $end
+$var wire 1 <! ns_ce_mux $end
+$var wire 1 =! ns_we_mux $end
+$var wire 10 >! neuron_ptr [9:0] $end
+$var wire 1 ?! nptr_valid $end
+$var wire 1 @! ptr_done $end
+$var wire 10 A! spike_id [9:0] $end
+$var wire 1 B! spike_valid_nfsm $end
+$var reg 1024 C! spike_reg [1023:0] $end
+$scope module u_ns_sram $end
+$var wire 1 / clk $end
+$var wire 1 <! ce $end
+$var wire 1 =! we $end
+$var wire 10 ;! addr [9:0] $end
+$var wire 15 9! wdata [14:0] $end
+$var wire 15 :! rdata [14:0] $end
+$scope module u_mem $end
+$var wire 1 / clk $end
+$var wire 1 <! ce $end
+$var wire 1 =! we $end
+$var wire 10 ;! addr [9:0] $end
+$var wire 15 9! wdata [14:0] $end
+$var reg 15 D! rdata [14:0] $end
+$var integer 32 E! idx [31:0] $end
+$upscope $end
+$upscope $end
+$scope module u_ptr $end
+$var wire 1 / clk $end
+$var wire 1 0 rst_n $end
+$var wire 1 9 start $end
+$var reg 10 F! neuron_ptr [9:0] $end
+$var reg 1 G! valid $end
+$var reg 1 H! done $end
+$var reg 1 I! active $end
+$upscope $end
+$scope module u_nfsm $end
+$var wire 1 / clk $end
+$var wire 1 0 rst_n $end
+$var wire 1 8 mode_wacc $end
+$var wire 1 9 mode_vcalcu $end
+$var wire 6 E weight_in [5:0] $end
+$var wire 10 F dst_id [9:0] $end
+$var wire 1 G weight_valid $end
+$var wire 10 >! neuron_ptr [9:0] $end
+$var wire 1 ?! nptr_valid $end
+$var wire 8 5! v_threshold [7:0] $end
+$var reg 10 J! ns_addr [9:0] $end
+$var reg 1 K! ns_ce $end
+$var reg 1 L! ns_we $end
+$var reg 15 M! ns_wdata [14:0] $end
+$var wire 15 :! ns_rdata [14:0] $end
+$var reg 10 N! spike_id [9:0] $end
+$var reg 1 O! spike_valid $end
+$var reg 1 P! wacc_done $end
+$var reg 1 Q! vcalcu_done $end
+$var reg 1 R! spiked $end
+$var reg 3 S! state [2:0] $end
+$var reg 1 T! wacc_mode $end
+$var reg 8 U! J_reg [7:0] $end
+$var reg 6 V! w_latch [5:0] $end
+$var reg 6 W! bias_latch [5:0] $end
+$var reg 1 X! en_latch $end
+$var reg 10 Y! id_latch [9:0] $end
+$var wire 8 Z! w_ext [7:0] $end
+$var wire 8 [! b_ext [7:0] $end
+$var wire 9 \! sum_result [8:0] $end
+$upscope $end
+$upscope $end
+$scope module u_oreader $end
+$var wire 1 / clk $end
+$var wire 1 0 rst_n $end
+$var wire 1 : trigger $end
+$var reg 10 ]! ns_addr [9:0] $end
+$var reg 1 ^! ns_ce $end
+$var wire 15 N ns_rdata [14:0] $end
+$var reg 8 _! v0 [7:0] $end
+$var reg 8 `! v1 [7:0] $end
+$var reg 8 a! v2 [7:0] $end
+$var reg 8 b! v3 [7:0] $end
+$var reg 8 c! v4 [7:0] $end
+$var reg 1 d! valid_out $end
+$var reg 3 e! cnt [2:0] $end
+$var reg 2 f! state [1:0] $end
+$upscope $end
+$scope module u_amax $end
+$var wire 1 / clk $end
+$var wire 1 0 rst_n $end
+$var wire 1 T valid_in $end
+$var wire 8 O v0 [7:0] $end
+$var wire 8 P v1 [7:0] $end
+$var wire 8 Q v2 [7:0] $end
+$var wire 8 R v3 [7:0] $end
+$var wire 8 S v4 [7:0] $end
+$var reg 3 g! idx [2:0] $end
+$var reg 1 h! valid $end
+$var wire 8 i! max01 [7:0] $end
+$var wire 3 j! idx01 [2:0] $end
+$var wire 8 k! max23 [7:0] $end
+$var wire 3 l! idx23 [2:0] $end
+$var wire 8 m! max0123 [7:0] $end
+$var wire 3 n! idx0123 [2:0] $end
+$var wire 8 o! max_all [7:0] $end
+$var wire 3 p! idx_all [2:0] $end
+$var wire 8 q! unused_max [7:0] $end
+$upscope $end
+$scope module u_utx $end
+$var wire 1 / clk $end
+$var wire 1 0 rst_n $end
+$var wire 8 r! data_in [7:0] $end
+$var wire 1 & send $end
+$var reg 1 s! tx $end
+$var wire 1 t! busy $end
+$var reg 20 u! baud_cnt [19:0] $end
+$var reg 4 v! bit_cnt [3:0] $end
+$var reg 10 w! shift [9:0] $end
+$var reg 1 x! active $end
+$upscope $end
+$upscope $end
+$scope task send_byte $end
+$var reg 8 y! d [7:0] $end
+$var integer 32 z! b [31:0] $end
+$upscope $end
+$scope task send_spike_word $end
+$var reg 32 {! lo [31:0] $end
+$var reg 32 |! mid [31:0] $end
+$var reg 32 }! hi [31:0] $end
+$var integer 32 ~! i [31:0] $end
+$var reg 96 !" word [95:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+
+#0
+$dumpvars
+0!
+b0 !!
+bx !"
+0"
+0"!
+1#
+0#!
+1$
+bx $!
+b0 %
+b0 %!
+0&
+b0 &!
+b0 '
+b0 '!
+b0 (
+1(!
+b0 )
+0)!
+b0 *
+0*!
+b0 +
+b0 +!
+b0 ,
+b0 ,!
+0-
+bx -!
+0.
+b10000000000 .!
+0/
+0/!
+00
+00!
+11
+b0 1!
+b0 2
+b0 2!
+03
+bx 3!
+b0 4
+b1000000000000000 4!
+05
+b1010 5!
+b0 6
+b0 6!
+07
+07!
+08
+08!
+09
+b0 9!
+0:
+bx :!
+1;
+b0 ;!
+0<
+0<!
+b0 =
+0=!
+0>
+b0 >!
+0?
+0?!
+b0 @
+0@!
+b0 A
+b0 A!
+0B
+0B!
+b0 C
+b0 C!
+0D
+bx D!
+b0 E
+b10000000000 E!
+b0 F
+b0 F!
+0G
+0G!
+0H
+0H!
+1I
+0I!
+0J
+b0 J!
+0K
+0K!
+b0 L
+0L!
+0M
+b0 M!
+bx N
+b0 N!
+b0 O
+0O!
+b0 P
+0P!
+b0 Q
+0Q!
+b0 R
+0R!
+b0 S
+b0 S!
+0T
+0T!
+0U
+b0 U!
+b0 V
+b0 V!
+0W
+b0 W!
+b0 X
+0X!
+b0 Y
+b0 Y!
+b0 Z
+b0 Z!
+0[
+b0 [!
+1\
+b0 \!
+1]
+b0 ]!
+b0 ^
+0^!
+0_
+b0 _!
+b0 `
+b0 `!
+b0 a
+b0 a!
+b0 b
+b0 b!
+b0 c
+b0 c!
+zd
+0d!
+0e
+b0 e!
+0f
+b0 f!
+0g
+b0 g!
+1h
+0h!
+0i
+b0 i!
+b0 j
+b0 j!
+b0 k
+b0 k!
+b0 l
+b10 l!
+b0 m
+b0 m!
+0n
+b0 n!
+b0 o
+b0 o!
+b0 p
+b0 p!
+b0 q
+b0 q!
+0r
+b0 r!
+0s
+1s!
+b0 t
+0t!
+0u
+b0 u!
+b0 v
+b0 v!
+b0 w
+b0 w!
+b0 x
+0x!
+0y
+bx y!
+0z
+bx z!
+b0 {
+bx {!
+0|
+bx |!
+0}
+bx }!
+bx ~
+bx ~!
+$end
+
+#5000
+1!
+1/
+
+#10000
+0!
+0/
+
+#15000
+1!
+1/
+
+#20000
+0!
+0/
+
+#25000
+1!
+1/
+
+#30000
+0!
+0/
+
+#35000
+1!
+1/
+
+#40000
+0!
+0/
+
+#45000
+1!
+1/
+
+#50000
+0!
+0/
+
+#55000
+1!
+1/
+
+#60000
+0!
+0/
+
+#65000
+1!
+1/
+
+#70000
+0!
+0/
+
+#75000
+1!
+1/
+
+#80000
+0!
+0/
+
+#85000
+1!
+1/
+
+#90000
+0!
+0/
+
+#95000
+1!
+1/
+
+#100000
+0!
+0/
+
+#105000
+1!
+1/
+
+#110000
+0!
+0/
+
+#115000
+1!
+1/
+
+#120000
+0!
+0/
+
+#125000
+1!
+1/
+
+#130000
+0!
+0/
+
+#135000
+1!
+1/
+
+#140000
+0!
+0/
+
+#145000
+1!
+1/
+
+#150000
+0!
+0/
+
+#155000
+1!
+1/
+
+#160000
+0!
+0/
+
+#165000
+1!
+1/
+
+#170000
+0!
+0/
+
+#175000
+1!
+1/
+
+#180000
+0!
+0/
+
+#185000
+1!
+1/
+
+#190000
+0!
+0/
+
+#195000
+1!
+1/
+
+#200000
+0!
+1"
+0/
+10
+
+#205000
+1!
+1/
+0;
+0h
+
+#210000
+0!
+0/
+
+#215000
+1!
+1/
+
+#220000
+0!
+0/
+
+#225000
+1!
+1/
+
+#230000
+0!
+0/
+
+#235000
+1!
+1/
+
+#240000
+0!
+0/
+
+#245000
+1!
+1/
+
+#250000
+0!
+0/
+
+#255000
+1!
+1/
+
+#260000
+0!
+0/
+
+#265000
+1!
+1/
+
+#270000
+0!
+0/
+
+#275000
+1!
+1/
+
+#280000
+0!
+0/
+
+#285000
+1!
+1/
+
+#290000
+0!
+0/
+
+#295000
+1!
+1/
+
+#300000
+0!
+0/
+
+#305000
+1!
+1/
+
+#310000
+0!
+0/
+
+#315000
+1!
+1/
+
+#320000
+0!
+0/
+
+#325000
+1!
+1/
+
+#330000
+0!
+0/
+
+#335000
+1!
+1/
+
+#340000
+0!
+0/
+
+#345000
+1!
+1/
+
+#350000
+0!
+0/
+
+#355000
+1!
+1/
+
+#360000
+0!
+0/
+
+#365000
+1!
+1/
+
+#370000
+0!
+0/
+
+#375000
+1!
+1/
+
+#380000
+0!
+0/
+
+#385000
+1!
+1/
+
+#390000
+0!
+0/
+
+#395000
+1!
+1/
+
+#400000
+0!
+0#
+0/
+01
+b0 ~!
+
+#405000
+1!
+1/
+0\
+
+#410000
+0!
+0/
+
+#415000
+1!
+1/
+0]
+
+#420000
+0!
+0/
+
+#425000
+1!
+1/
+b110110001 X
+1[
+
+#430000
+0!
+0/
+
+#435000
+1!
+1/
+b110110000 X
+
+#440000
+0!
+0/
+
+#445000
+1!
+1/
+b110101111 X
+
+#450000
+0!
+0/
+
+#455000
+1!
+1/
+b110101110 X
+
+#460000
+0!
+0/
+
+#465000
+1!
+1/
+b110101101 X
+
+#470000
+0!
+0/
+
+#475000
+1!
+1/
+b110101100 X
+
+#480000
+0!
+0/
+
+#485000
+1!
+1/
+b110101011 X
+
+#490000
+0!
+0/
+
+#495000
+1!
+1/
+b110101010 X
+
+#500000
+0!
+0/
+
+#505000
+1!
+1/
+b110101001 X
+
+#510000
+0!
+0/
+
+#515000
+1!
+1/
+b110101000 X
+
+#520000
+0!
+0/
+
+#525000
+1!
+1/
+b110100111 X
+
+#530000
+0!
+0/
+
+#535000
+1!
+1/
+b110100110 X
+
+#540000
+0!
+0/
+
+#545000
+1!
+1/
+b110100101 X
+
+#550000
+0!
+0/
+
+#555000
+1!
+1/
+b110100100 X
+
+#560000
+0!
+0/
+
+#565000
+1!
+1/
+b110100011 X
+
+#570000
+0!
+0/
+
+#575000
+1!
+1/
+b110100010 X
+
+#580000
+0!
+0/
+
+#585000
+1!
+1/
+b110100001 X
+
+#590000
+0!
+0/
+
+#595000
+1!
+1/
+b110100000 X
+
+#600000
+0!
+0/
+
+#605000
+1!
+1/
+b110011111 X
+
+#610000
+0!
+0/
+
+#615000
+1!
+1/
+b110011110 X
+
+#620000
+0!
+0/
+
+#625000
+1!
+1/
+b110011101 X
+
+#630000
+0!
+0/
+
+#635000
+1!
+1/
+b110011100 X
+
+#640000
+0!
+0/
+
+#645000
+1!
+1/
+b110011011 X
+
+#650000
+0!
+0/
+
+#655000
+1!
+1/
+b110011010 X
+
+#660000
+0!
+0/
+
+#665000
+1!
+1/
+b110011001 X
+
+#670000
+0!
+0/
+
+#675000
+1!
+1/
+b110011000 X
+
+#680000
+0!
+0/
+
+#685000
+1!
+1/
+b110010111 X
+
+#690000
+0!
+0/
+
+#695000
+1!
+1/
+b110010110 X
+
+#700000
+0!
+0/
+
+#705000
+1!
+1/
+b110010101 X
+
+#710000
+0!
+0/
+
+#715000
+1!
+1/
+b110010100 X
+
+#720000
+0!
+0/
+
+#725000
+1!
+1/
+b110010011 X
+
+#730000
+0!
+0/
+
+#735000
+1!
+1/
+b110010010 X
+
+#740000
+0!
+0/
+
+#745000
+1!
+1/
+b110010001 X
+
+#750000
+0!
+0/
+
+#755000
+1!
+1/
+b110010000 X
+
+#760000
+0!
+0/
+
+#765000
+1!
+1/
+b110001111 X
+
+#770000
+0!
+0/
+
+#775000
+1!
+1/
+b110001110 X
+
+#780000
+0!
+0/
+
+#785000
+1!
+1/
+b110001101 X
+
+#790000
+0!
+0/
+
+#795000
+1!
+1/
+b110001100 X
+
+#800000
+0!
+0/
+
+#805000
+1!
+1/
+b110001011 X
+
+#810000
+0!
+0/
+
+#815000
+1!
+1/
+b110001010 X
+
+#820000
+0!
+0/
+
+#825000
+1!
+1/
+b110001001 X
+
+#830000
+0!
+0/
+
+#835000
+1!
+1/
+b110001000 X
+
+#840000
+0!
+0/
+
+#845000
+1!
+1/
+b110000111 X
+
+#850000
+0!
+0/
+
+#855000
+1!
+1/
+b110000110 X
+
+#860000
+0!
+0/
+
+#865000
+1!
+1/
+b110000101 X
+
+#870000
+0!
+0/
+
+#875000
+1!
+1/
+b110000100 X
+
+#880000
+0!
+0/
+
+#885000
+1!
+1/
+b110000011 X
+
+#890000
+0!
+0/
+
+#895000
+1!
+1/
+b110000010 X
+
+#900000
+0!
+0/
+
+#905000
+1!
+1/
+b110000001 X
+
+#910000
+0!
+0/
+
+#915000
+1!
+1/
+b110000000 X
+
+#920000
+0!
+0/
+
+#925000
+1!
+1/
+b101111111 X
+
+#930000
+0!
+0/
+
+#935000
+1!
+1/
+b101111110 X
+
+#940000
+0!
+0/
+
+#945000
+1!
+1/
+b101111101 X
+
+#950000
+0!
+0/
+
+#955000
+1!
+1/
+b101111100 X
+
+#960000
+0!
+0/
+
+#965000
+1!
+1/
+b101111011 X
+
+#970000
+0!
+0/
+
+#975000
+1!
+1/
+b101111010 X
+
+#980000
+0!
+0/
+
+#985000
+1!
+1/
+b101111001 X
+
+#990000
+0!
+0/
+
+#995000
+1!
+1/
+b101111000 X
+
+#1000000
+0!
+0/
