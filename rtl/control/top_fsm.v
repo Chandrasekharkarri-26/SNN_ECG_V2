@@ -5,7 +5,7 @@
 // Module       : top_fsm
 // Description  : Global controller for the SNN processor. Manages the 
 //                algorithmic phases (Weight Accumulation, Voltage Calculation, 
-//                and Output) across multiple timesteps.
+//                and Output) across multiple timesteps
 // ============================================================================
 
 module top_fsm #(
