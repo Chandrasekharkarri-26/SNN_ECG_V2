@@ -5,7 +5,7 @@
 // Module       : neuron_fsm
 // Description  : Per-neuron Leaky Integrate-and-Fire (LIF) state machine.
 //                Timeshares SRAM to perform Weight Accumulation (W_ACC) and
-//                Membrane Potential Update/Leak/Thresholding (V_CALCU).
+//                Membrane Potential Update/Leak/Thresholding (V_CALCU)
 // Reference    : IEEE TBCAS 2022, Fig 9(c) Neuron_FSM
 // ============================================================================
 
