@@ -5,7 +5,7 @@
 // Module       : argmax5
 // Description  : Returns the index (0-4) of the maximum among 5 signed 
 //                membrane potentials. Uses a 3-stage combinational comparator 
-//                tree with a registered output.
+//                tree with a registered output
 //                Classes: 0=N, 1=V, 2=S, 3=F, 4=Q
 // ============================================================================
 
