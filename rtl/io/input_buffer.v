@@ -11,7 +11,7 @@
 
 module input_buffer (
     input  wire        clk,
-    input  wire        rst_n,
+    input  wire      rst_n,
     
     // UART interface
     input  wire [7:0]  byte_in,
